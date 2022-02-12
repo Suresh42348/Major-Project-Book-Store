@@ -1,5 +1,7 @@
-body{
-    margin:auto;
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 /*social Links*/
 
@@ -197,7 +199,6 @@ body{
     display: inline-block;
 }
 .card{
-    height:100%;
     float:left;
     width:18%;
     margin-left:20px;
@@ -223,7 +224,7 @@ body{
     border-top-right-radius: 15px;
 }
 .details{
-    height:100px;
+    height:120px;
     font-size:20px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
