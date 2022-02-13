@@ -9,7 +9,7 @@ html,body {
     height:50px;
     width:100%;
     display:inline-block;
-    background-color:lightgray;
+    background-color:gray;
 }
 .icon{
     height:50px;
@@ -43,6 +43,7 @@ html,body {
 .logo > img{
     height:80px;
     width:100%;
+
 }
 .search{
     float:left;
@@ -50,19 +51,19 @@ html,body {
     width:40%;
     margin-left:9%;
     margin-top:1%;
-    box-shadow: 0px 2px 4px;
     border-radius:15PX;
 }
 #searchbar{
     float:left;
     width:92%;
-    height:40PX;
+    height:40PX; 
 }
+
 #searchbar > input{
     float: right;
     height:40px;
     width:100%;
-    border: none;
+    border: 1px solid lightgray;
     font-size: 17px;
   }
 .searchicon{
@@ -84,9 +85,8 @@ html,body {
 }
 .login{
     float:left;
-    height:40px;
-    width:10%;
-    margin-left:6%;
+    width:fit-content;
+    margin-left:8%;
     margin-top:1%;
     transition: transform .2s;
 }
@@ -95,113 +95,95 @@ html,body {
     -webkit-transform: scale(1.05); 
     transform: scale(1.05);
 } 
-.login > button{
-    height:100%;
-    width:60%;
-    background-color:orange;
-    text-align:center;
-    margin-left:25%;
-    font-size:20px;
-    font-weight:BOLD;
-}
-.login >i{
-    width:100%;
-    height:100%;
-}
+
 /*Munu bar started*/
 
 .menubar{
-    height:60px;
-    background-color: lightgray;
     width:100%;
     display:inline-block;
-}
-.menu{
-    float:left;
-    margin-top:8px;
-    height:40px;
-    width:8%;
-    margin-left:3px;
-    text-align:center;
-    line-height:3;
-    font-size: 16px;
-    font-weight:bold;
-    transition: transform .2s;;
-}
-.menu:hover {
-    -ms-transform: scale(1.05); 
-    -webkit-transform: scale(1.05); 
-    transform: scale(1.05);
-}
-.menu > a{
-    text-decoration:none;
-    color:black;
-}
-.wishlist{
-    height:100%;
-    float:left;
-    width:45%;
-    margin-left:2px;
-    border:2px solid black;
-
-}
-.cart{
-    height:100%;
-    float:left;
-    width:45%;
-    margin-left:2px;
-    border:2px solid black;
-
+    color:white;
 }
 
-.btn{
-    height:100%;
-    background-color:red;
-    width:100%;
+.navbar-nav {
+    
+    font-size:19px;
+    
+  }
+.navbar-nav li {
+    color:white;
+    
+  }
 
-}
 /*Main picture division*/
 .picture{
-    height:500px;
-    width:100%;
-    display:inline-block;   
+    width:100%;   
 }
+.picture .container{
+    width:100%;
+}
+
 .picture > img{
     width:100%;
     background-repeat: no-repeat;
     background-size: 500px 100%;
 }
-/*Maincontainer for booklist*/
-.maincontainer{
-    /*height:800px;*/
-    margin-top:9.5%;
-    width:100%;
-    display:inline-block;
-}
+
+
+/*booklist*/
+
 .header{
-    margin-top:4%;
-    height:50PX;
+    margin-top:1%;
+    height:60PX;
     text-align:center;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size:larger;
+    position:relative;
+
 
 }
 .header > h1{
-      margin-top:-1px;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bolder;
+      font-size:60px;
+}
+.row{
+    margin-left:6%;
+    margin-right:6%;
 }
 .bookwindow{
-    height:400px;
-    width:80%;
-    margin-right:10%;
-    margin-left:10%;
+    width:100%;
     margin-top:4%;
-    display: inline-block;
+    position:relative; 
+    
+
+}
+/* containers for books */
+#first{
+    height:440px;
+    /* background-color:skyblue; */
+}
+#second{
+    height:440px;
+    /* background-color:rgb(217, 240, 136); */
+    
+}
+#third{
+    height:440px;
+    /* background-color:rgb(238, 179, 155); */
+}
+#fourth{
+    height:440px;
+    /* background-color:rgb(240, 159, 236); */
+}
+#fifth{
+    height:440px;
+    /* background-color:rgb(94, 134, 221); */
+}
+#sixth{
+    height:440px;
+    /* background-color:rgb(209, 198, 102); */
 }
 .card{
-    float:left;
-    width:18%;
-    margin-left:20px;
+    display:inline-flexbox;
+    width:108%;
     text-align:center;
     border-radius: 15px;
     box-shadow: 5px 5px 10px lightgray;
@@ -229,6 +211,7 @@ html,body {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     color:gray;
+
 }
 .detailheading{
     color:black;
@@ -243,7 +226,9 @@ html,body {
     text-align:center;
     border-radius: 15px;
     border:3px solid orange;
+    display:inline-block;
 }
+
 .viewmore > a{
     line-height: 2.5;
     font-size:20px;
@@ -259,6 +244,8 @@ html,body {
     width:100%;
     display:inline-block;
 }
+
+
 .banner > img {
     height:100%;
     width:100%;
@@ -273,6 +260,201 @@ html,body {
 .footer > h2{
     text-align:center;
 }
+
+/* media Queries */
+@media only screen 
+   and (max-width : 1464px) {
+   
+    .row {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .productimage {
+        height: 266px;
+    }
+    .productimage img {
+        height: 266px;
+    }
+    .details {
+        
+        font-size:18px;
+    }
+
+   }
+
+   @media only screen 
+   and (max-width : 1371px) {
+       .viewmore{
+           width:15%;
+       }
+   }
+
+   @media only screen 
+   and (max-width : 1371px) {
+       .viewmore{
+           width:20%;
+           margin-left:39%;
+       }
+    
+    .header > h1 {
+        font-size: 53px;
+   }
+   .bookwindow {
+    margin-top: 7%;
+}
+}
+@media only screen 
+   and (max-width : 1253px) {
+    .search {
+        width: 48%;
+        margin-left: 7%;
+        
+   }
+}
+
+@media only screen 
+   and (max-width : 1060px) {
+       .banner img{
+           height:80%;
+       }
+   }
+   @media only screen 
+   and (max-width : 930px) {
+       .search{
+        width: 52%;
+        margin-left: 5%;
+       }
+       .logo {
+        height: 78px;
+        width: 15%;
+        margin-left: 8%;
+    }
+}
+
+    @media only screen 
+    and (max-width : 842px) {
+        .search{
+            width: 60%;
+            margin-left: 0%;
+        }
+        .logo {
+         width: 15%;
+         margin-left: 8%;
+     }
+     .login{
+         margin-left: 2%;
+     }
+     }
+   @media only screen 
+   and (max-width : 765px) {
+    .bookwindow {
+        margin-top: 12%;
+    }
+    .row {
+        width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+    }
+
+   }
+   
+
+@media only screen 
+   and (max-width : 693px) {
+       .viewmore{
+           width:30%;
+           margin-left:35%;
+       }
+    
+    .header > h1 {
+        font-size: 43px;
+   }
+   .bookwindow {
+    margin-top: 12%;
+}
+.row {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#searchbar {
+   
+    width: 80%;
+    
+}
+}
+@media only screen 
+and (max-width : 671px) {
+ #searchbar {
+     float: left;
+     width: 90%;
+
+ }
+
+ .search{
+     width: 60%;
+     margin-left: 0%;
+    }
+    
+ .logo {
+ width: 15%;
+ margin-left: 3%;
+ }
+}
+
+@media only screen 
+   and (max-width : 514px) {
+    .bookwindow {
+        margin-top: 15%;
+    }
+    .row {
+        width:auto;
+        margin-left: -20px;
+        margin-right: -1px;
+}
+   
+}
+
+/* media quries for mobiles */
+@media only screen 
+   and (max-width : 414px) {
+       .viewmore{
+           width:40%;
+           margin-left:30%;
+           font-size:20px;
+       }
+       .banner img{
+        height:60%;
+        width:100%
+    }
+   }
+   @media only screen 
+   and (max-width : 390px) {
+       .viewmore{
+           width:40%;
+           margin-left:30%;
+           font-size:20px;
+       }
+       .banner img{
+        height:50%;
+        width:100%
+    }
+   }
+@media only screen 
+   and (max-width : 375px) {
+       .viewmore{
+           width:40%;
+           margin-left:30%;
+           font-size:20px;
+       }
+       
+       
+       .banner img{
+        height:50%;
+        width:100%
+    }
+   }
+
+
 
 
 

@@ -11,526 +11,641 @@
         
     </head>
     <body>
-        <div class="social">
+        <div class="container-fluid">
+        <div class="social container">
             <div style="margin-right:5%;">
             
             <div class="icon">
-               <a href=""><img src="./images/linkedin.png" alt ="facebook"> </a> 
+               <a href=""><img src="./images/linkedin.png" class="img-responsive" alt ="facebook"> </a> 
             </div>
             <div class="icon">
-                <a href=""><img src="./images/instagram.png" alt ="facebook"> </a>
+                <a href=""><img src="./images/instagram.png" class="img-responsive" alt ="facebook"> </a>
             </div>
             <div class="icon">
-               <a href=""> <img src="./images/twitter.png" alt ="facebook"> </a>
+               <a href=""> <img src="./images/twitter.png" class="img-responsive" alt ="facebook"> </a>
             </div>
             <div class="icon">
-               <a href=""><img src="./images/facebook.png" alt ="facebook"> </a> 
+               <a href=""><img src="./images/facebook.png" class="img-responsive" alt ="facebook"> </a> 
             </div>
             </div>
-           
-
+            </div>
         </div>
-        <div id="head">
+        <div id="head container">
             <div class="logo">
-                <img src="./images/logo.png">
+                <img src="./images/logo.png" class="img-responsive">
                 
             </div>
-            <div class="search">
+            <div class="search container">
                 <div id="searchbar">
-                <input type="text" placeholder="Search by title, author or ISBN here..... "></div>
-                <div class="searchicon"><button type="submit"><i class="fas fa-search"></i></button>
+                <input type="text" placeholder="Search by title, author or ISBN here..... " class="form-control"></div>
+                <div class="searchicon" ><button type="button"  class="btn"><span class="glyphicon glyphicon-search"></span></button>
             </div></div>
             <div class="login">
-                <button type="submit"><i class="fas fa-user"></i> Login</button>
-            </div>
-        </div>
+                <button type="submit" class="btn btn-Success"> Login </button>
+        </div> 
+        
+        
         <!-- menu bar-->
-        <div class="menubar">
-            
-                <div class="menu">
-                    <a href="">Home</a>
+        <div class="menubar container ">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target="#myNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                      BuyBooks <sub>india.com</sub>
+                    </a>
                 </div>
-                <div class="menu">
-                    <a href="">About Us</a>
+                <div class="collapse navbar-collapse"style="text-align:center;" id="myNav">
+                <div class="first">
+                    <ul class="nav navbar-nav" >
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">Pre Order</a></li>
+                        <li><a href="#">School Books</a></li>
+                        <li><a href="#">Fiction &Non-fiction</a></li>
+                        <li><a href="#">Children &Adults</a></li>
+                        <li><a href="#">Exam Prepration</a></li>
+                        <li><a href="#">Used Books</a></li>
+                        
+                    </ul>
                 </div>
-                <div class="menu">
-                    <a href="">Best Sellers</a>
-                </div>
-                <div class="menu">
-                    <a href="">New Releases</a>
-                </div>
-                <div class="menu">
-                    <a href="">Pre Order</a>
-                </div>
-                <div class="menu">
-                    <a href="">School Books</a>
-                </div>
-                <div class="menu">
-                    <a href="">New Releases</a>
-                </div>
-                <div class="menu">
-                    <a href="">Fiction & Non-fiction</a>
-                </div>
-                <div class="menu">
-                    <a href="">Children & Adult</a>
-                </div>
-                <div class="menu">
-                    <a href="">Exam Prepration</a>
-                </div>
-                <div class="menu">
-                    <a href="">Used Books</a>
-                </div>
-                <div class="menu">
-                    <div class="wishlist" title="My Wishlist">
+              
+                    
+                    <ul class="nav navbar-nav navbar-RIGHT">
+                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> Wishlist</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+                        
+                    </ul>
                 
-                        <button class="btn" type="Submit"><i class="fas fa-heart"></i></button>
-                    </div>
-                    <div class="cart" title="My Cart">
-                        <button class="btn"  type="Submit"><i class="fas fa-shopping-cart"></i></i></button>
-
-                    </div>
                 </div>
-           
+               
+            </div>
+        </nav>
+
         </div>
         <div class="picture">
-            <img src="./images/ncert.jpg" alt="picture">
-        </div>
+        <div class="container">
 
+            <div id="myslider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myslider" data-slide-to="0" class="active"></li>
+                    <li data-target="#myslider" data-slide-to="1"></li>
+                    <li data-target="#myslider" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active" >
+                        <img src="./images/ncert.jpg" alt="a"/>
+                    </div>
+                    <div class="item">
+                        <img src="./images/ncert.jpg" alt="ncert"/>
+                    </div>
+                    <div class="item">
+                        <img src="./images/sale.jpg" alt="Sales"/>
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#myslider" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#myslider" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
         <!--exam Preparation booklist-->
-        <div class="maincontainer">
-            <div class="Header">
-                <h1>Exam Preparation Books</h1>
-            </div>
-            <div class="bookwindow">
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/india 2021.jpeg" alt="indian 2021"></a>    
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Indian 2021</span> </b><br>
-                        <span><strike>Old Price: ₹500</strike></span><br> 
-                        <span class="detailheading">New Price: ₹400</span>
-                    </div>
+        <div class=" header container">
+            <h1>Exam Preparation Books</h1>
+        </div>
+        <div class=" bookwindow container">
+        <div class="row">
+        <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/india 2021.jpeg" alt="indian 2021"></a>    
                 </div>
-                 
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/essay.jpeg" alt="Latest Probable Essays"></a>  
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Latest Probable Essays</span> </b><br>
-                        <span><strike>Old Price: ₹300</strike></span><br> 
-                        <span class="detailheading">New Price: ₹275</span>
-                    </div>
+                <div class="details">
+                    <b> <span class="detailheading">Indian 2021</span> </b><br>
+                    <span><strike>Old Price: ₹500</strike></span><br> 
+                    <span class="detailheading">New Price: ₹400</span>
                 </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html" ><img src="./images/geography.jpeg" alt="Geography of India"></a>
-                           
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Geography of India</span> </b><br>
-                        <span><strike>Old Price: ₹300</strike></span><br> 
-                        <span class="detailheading">New Price: ₹250</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage"> 
-                        <a href=" ./listing/listing.html"></a> <img src="./images/quantitative aptitude.jpeg" alt="Quantitative Aptitude"> </a> 
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Quantitative Aptitude</span> </b><br>
-                        <span><strike>Old Price: ₹250</strike></span><br> 
-                        <span class="detailheading">New Price: ₹220</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html"> <img src="./images/indianpolity.jpeg" alt="indian polity"> </a>  
-                    </div>
-                    <div class="details">
-                       <b> <span class="detailheading">Indian Polity</span> </b><br>
-                        <span><strike>Old Price: ₹300</strike></span><br> 
-                        <span class="detailheading">New Price: ₹275</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="viewmore">
-                <a href="">View More</a>
-
             </div>
         </div>
-
-        <!-- Children & Young Adult Booksbooklist-->
-        <div class="maincontainer" style="margin-top:0%;">
-            <div class="Header">
-                <h1>Children & Young Adult Books</h1>
-            </div>
-            <div class="bookwindow">
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/panchtantra.jpeg" alt="panchtantra"></a>    
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">101 Panchtantra Stories</span> </b><br>
-                        <span><strike>Old Price: ₹600</strike></span><br> 
-                        <span class="detailheading">New Price: ₹450</span>
-                    </div>
+        <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/essay.jpeg" alt="Latest Probable Essays"></a>  
                 </div>
-                 
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/stilton.jpeg" alt="thea Stilton"></a>  
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Thea Stilton and the Dancing Shadows</span> </b><br>
-                        <span><strike>Old Price: ₹300</strike></span><br> 
-                        <span class="detailheading">New Price: ₹275</span>
-                    </div>
+                <div class="details">
+                    <b> <span class="detailheading">Latest Probable Essays</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹275</span>
                 </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html" ><img src="./images/gopi diaries.jpeg" alt=" Gopi Diaries"></a>
-                           
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Gopi Diaries : Finding Love</span> </b><br>
-                        <span><strike>Old Price: ₹500</strike></span><br> 
-                        <span class="detailheading">New Price: ₹450</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage"> 
-                        <a href=" ./listing/listing.html"></a> <img src="./images/Flowers.jpeg" alt="Flowers - Jigsaw Puzzle"> </a> 
-                    </div>ive Aptitude
-                    <div class="details">
-                        <b> <span class="detailheading">Flowers - Jigsaw Puzzle</span> </b><br>
-                        <span><strike>Old Price: ₹250</strike></span><br> 
-                        <span class="detailheading">New Price: ₹220</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html"> <img src="./images/library pack 2.jpg" alt="My First Library Pack 2"> </a>  
-                    </div>
-                    <div class="details">
-                       <b> <span class="detailheading">My First Library Pack 2</span> </b><br>
-                        <span><strike>Old Price: ₹700</strike></span><br> 
-                        <span class="detailheading">New Price: ₹590</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="viewmore">
-                <a href="">View More</a>
-
             </div>
         </div>
-        <!----Dicounts/banners-->
-        <div class="banner">
-            <a href=""><img src="./images/ad-banner1.jpg" alt="banner"></a>
-        </div>
-        <!-- Bestseller Books-->
-        <div class="maincontainer" style="margin-top:0%;">
-            <div class="Header">
-                <h1>Bestseller Books</h1>
-            </div>
-            <div class="bookwindow">
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/It Ends With Us.jpeg" alt="It Ends With Us"></a>    
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">It Ends With Us</span> </b><br>
-                        <span><strike>Old Price: ₹200</strike></span><br> 
-                        <span class="detailheading">New Price: ₹150</span>
-                    </div>
+        <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html" ><img src="./images/geography.jpeg" alt="Geography of India"></a>
+                       
                 </div>
-                 
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/The Power of your.jpeg" alt="The power of your subconscious Mind"></a>  
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">The Power Of Your Subconscious Mind</span> </b><br>
-                        <span><strike>Old Price: ₹320</strike></span><br> 
-                        <span class="detailheading">New Price: ₹275</span>
-                    </div>
+                <div class="details">
+                    <b> <span class="detailheading">Geography of India</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹250</span>
                 </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html" ><img src="./images/gopi diaries.jpeg" alt=" Gopi Diaries"></a>
-                           
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Gopi Diaries : Finding Love</span> </b><br>
-                        <span><strike>Old Price: ₹500</strike></span><br> 
-                        <span class="detailheading">New Price: ₹450</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage"> 
-                        <a href=" ./listing/listing.html"></a> <img src="./images/Do Epic Shit.jpeg" alt="Do Epic Shit"> </a> 
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Do Epic Shit</span> </b><br>
-                        <span><strike>Old Price: ₹250</strike></span><br> 
-                        <span class="detailheading">New Price: ₹200</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html"> <img src="./images/12 Rules For Life.jpeg" alt="12 Rules For Life"> </a>  
-                    </div>
-                    <div class="details">
-                       <b> <span class="detailheading">12 Rules For Life</span> </b><br>
-                        <span><strike>Old Price: ₹400</strike></span><br> 
-                        <span class="detailheading">New Price: ₹360</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="viewmore">
-                <a href="">View More</a>
-
             </div>
         </div>
-
-        <!-- New Releases Books-->
-        <div class="maincontainer" style="margin-top:0%;">
-            <div class="Header">
-                <h1>New Releases Books</h1>
-            </div>
-            <div class="bookwindow">
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/The Book of Dog.jpg" alt="The Book of Dog"></a>    
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">The Book of Dog</span> </b><br>
-                        <span><strike>Old Price: ₹450</strike></span><br> 
-                        <span class="detailheading">New Price: ₹400</span>
-                    </div>
+        <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage"> 
+                    <a href=" ./listing/listing.html"> <img src="./images/quantitative aptitude.jpeg" alt="Quantitative Aptitude"> </a> 
                 </div>
-                 
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/The Punch Magazine.jpeg" alt="The Punch Magazine"></a>  
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">The Punch Magazine</span> </b><br>
-                        <span><strike>Old Price: ₹350</strike></span><br> 
-                        <span class="detailheading">New Price: ₹300</span>
-                    </div>
+                <div class="details">
+                    <b> <span class="detailheading">Quantitative Aptitude</span> </b><br>
+                    <span><strike>Old Price: ₹250</strike></span><br> 
+                    <span class="detailheading">New Price: ₹220</span>
                 </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html" ><img src="./images/India That Is Bharat.jpeg" alt=" India That Is Bharat"></a>
-                           
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">GIndia That Is Bharat</span> </b><br>
-                        <span><strike>Old Price: ₹600</strike></span><br> 
-                        <span class="detailheading">New Price: ₹560</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage"> 
-                        <a href=" ./listing/listing.html"></a> <img src="./images/Do Epic Shit.jpeg" alt="Do Epic Shit"> </a> 
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Do Epic Shit</span> </b><br>
-                        <span><strike>Old Price: ₹250</strike></span><br> 
-                        <span class="detailheading">New Price: ₹200</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html"> <img src="./images/Heroes Of 1971.jpg" alt="Heroes Of 1971"> </a>  
-                    </div>
-                    <div class="details">
-                       <b> <span class="detailheading">Heroes Of 1971</span> </b><br>
-                        <span><strike>Old Price: ₹800</strike></span><br> 
-                        <span class="detailheading">New Price: ₹750</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="viewmore">
-                <a href="">View More</a>
-
             </div>
         </div>
-        <!----Dicounts/banners-->
-        <div class="banner">
-            <a href=""><img src="./images/ad-banner2.png" alt="banner"></a> 
-        </div>
-
-        <!-- School Books-->
-        <div class="maincontainer" style="margin-top:0%;">
-            <div class="Header">
-                <h1>School Books</h1>
-            </div>
-            <div class="bookwindow">
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/National Geographic Leaders.jpeg" alt="National Geographic Leaders"></a>    
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">National Geographic Leaders</span> </b><br>
-                        <span><strike>Old Price: ₹550</strike></span><br> 
-                        <span class="detailheading">New Price: ₹490</span>
-                    </div>
+        <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/indianpolity.jpeg" alt="indian polity"> </a>  
                 </div>
-                 
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/The Punch Magazine.jpeg" alt="The Punch Magazine"></a>  
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">National Geographic Leaders</span> </b><br>
-                        <span><strike>Old Price: ₹350</strike></span><br> 
-                        <span class="detailheading">New Price: ₹300</span>
-                    </div>
+                <div class="details">
+                   <b> <span class="detailheading">Indian Polity</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹275</span>
                 </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html" ><img src="./images/Nootan Saral Hindi Mala.jpeg" alt="Nootan Saral Hindi Mala"></a>
-                           
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Nootan Saral Hindi Mala</span> </b><br>
-                        <span><strike>Old Price: ₹300</strike></span><br> 
-                        <span class="detailheading">New Price: ₹200</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage"> 
-                        <a href=" ./listing/listing.html"></a> <img src="./images/GK Planet 3.jpeg" alt="GK Planet 3"> </a> 
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">GK Planet 3</span> </b><br>
-                        <span><strike>Old Price: ₹350</strike></span><br> 
-                        <span class="detailheading">New Price: ₹310</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html"> <img src="./images/English Textbook Combo Pack.jpeg" alt="English Textbook Combo Pack"> </a>  
-                    </div>
-                    <div class="details">
-                       <b> <span class="detailheading">English Textbook Combo Pack</span> </b><br>
-                        <span><strike>Old Price: ₹550</strike></span><br> 
-                        <span class="detailheading">New Price: ₹500</span>
-                    </div>
-                </div>
-
-            </div>
-            <div class="viewmore">
-                <a href="">View More</a>
-
             </div>
         </div>
-           
-         <!-- Fiction & Non Fiction Books-->
-         <div class="maincontainer" style="margin-top:0%;">
-            <div class="Header">
-                <h1>Fiction & Non Fiction Books</h1>
+        <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/english.jpg" alt="ENGLISH"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">General English 2022</span> </b><br>
+                    <span><strike>Old Price: ₹290</strike></span><br> 
+                    <span class="detailheading">New Price: ₹265</span>
+                </div>
             </div>
-            <div class="bookwindow">
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/Gitanjali Hindi.jpg" alt="Gitanjali-  Hindi"></a>    
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Gitanjali-  Hindi</span> </b><br>
-                        <span><strike>Old Price: ₹690</strike></span><br> 
-                        <span class="detailheading">New Price: ₹520</span>
-                    </div>
-                </div>
-                 
+        </div>
+        </div>
+        </div>
+        <div class="viewmore container">
+            <a href="">View More</a>
+        </div>
+        <!-- Children & Young Adult Books -->
 
-                <div class="card">
-                    <div class="productimage">
-                        <a href="./listing/listing.html"> <img src="./images/Salaam Bastar (hindi).jpeg" alt="Salaam Bastar (hindi)"></a>  
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Salaam Bastar (hindi)</span> </b><br>
-                        <span><strike>Old Price: ₹550</strike></span><br> 
-                        <span class="detailheading">New Price: ₹510</span>
-                    </div>
+        <div class=" header container">
+            <h1>Children & Young Adult Books</h1>
+        </div>
+        <div class=" bookwindow container">
+        <div class="row">
+        <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/panchtantra.jpeg" alt="panchtantra"></a>    
                 </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html" ><img src="./images/Himachal Birds - A Visual Threat.jpeg" alt="Himachal Birds - A Visual Threat"></a>
-                           
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Himachal Birds - A Visual Threat</span> </b><br>
-                        <span><strike>Old Price: ₹900</strike></span><br> 
-                        <span class="detailheading">New Price: ₹850</span>
-                    </div>
+                <div class="details">
+                    <b> <span class="detailheading">101 Panchtantra Stories</span> </b><br>
+                    <span><strike>Old Price: ₹600</strike></span><br> 
+                    <span class="detailheading">New Price: ₹450</span>
                 </div>
-
-                <div class="card">
-                    <div class="productimage"> 
-                        <a href=" ./listing/listing.html"></a> <img src="./images/Devdaas.jpeg" alt="Devdaas"> </a> 
-                    </div>
-                    <div class="details">
-                        <b> <span class="detailheading">Devdaas</span> </b><br>
-                        <span><strike>Old Price: ₹350</strike></span><br> 
-                        <span class="detailheading">New Price: ₹310</span>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="productimage">
-                        <a href=" ./listing/listing.html"> <img src="./images/Indian Foreign Affairs.jpeg" alt="Indian Foreign Affairs"> </a>  
-                    </div>
-                    <div class="details">
-                       <b> <span class="detailheading">Indian Foreign Affairs</span> </b><br>
-                        <span><strike>Old Price: ₹550</strike></span><br> 
-                        <span class="detailheading">New Price: ₹510</span>
-                    </div>
-                </div>
-
             </div>
-            <div class="viewmore">
-                <a href="">View More</a>
+        </div>
+        <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/stilton.jpeg" alt="thea Stilton"></a>  
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Thea Stilton and the Dancing Shadows</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹275</span>
+                </div>
             </div>
+        </div>
+        <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html" ><img src="./images/gopi diaries.jpeg" alt=" Gopi Diaries"></a>
+                       
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Gopi Diaries : Finding Love</span> </b><br>
+                    <span><strike>Old Price: ₹500</strike></span><br> 
+                    <span class="detailheading">New Price: ₹450</span>
+                </div>
+            </div>
+        </div>
+        <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+            <div class="productimage"> 
+                <a href=" ./listing/listing.html"></a> <img src="./images/Flowers.jpeg" alt="Flowers - Jigsaw Puzzle"> </a> 
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">Flowers - Jigsaw Puzzle</span> </b><br>
+                <span><strike>Old Price: ₹250</strike></span><br> 
+                <span class="detailheading">New Price: ₹220</span>
+            </div>
+        </div>
+        </div>
+        <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/library pack 2.jpg" alt="My First Library Pack 2"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">My First Library Pack 2</span> </b><br>
+                    <span><strike>Old Price: ₹700</strike></span><br> 
+                    <span class="detailheading">New Price: ₹590</span>
+                </div>
+            </div>
+        </div>
+        <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/A song of Ice.jpeg" alt="A song of Ice and Fire"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">A Song of Ice and Fire</span> </b><br>
+                    <span><strike>Old Price: ₹600</strike></span><br> 
+                    <span class="detailheading">New Price: ₹530</span>
+                </div>
+            </div>
+        </div>
+        </div>
         </div>
 
         <!----Dicounts/banners-->
-        <div class="banner">
-           <a href="" ></a><img src="./images/keen to read books.jpg" alt="banner"></a>
+        <div class="banner container">
+            <a href=""><img src="./images/ad-banner1.jpg" class="img-responsive" alt="banner"></a>
         </div>
 
+        <!--Bestsellers booklist-->
+        <div class=" header container">
+            <h1>Bestsellers Books</h1>
+        </div>
+        <div class=" bookwindow container">
+        <div class="row">
+        <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/It Ends With Us.jpeg" alt="It Ends With Us"></a>    
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">It Ends With Us</span> </b><br>
+                    <span><strike>Old Price: ₹200</strike></span><br> 
+                    <span class="detailheading">New Price: ₹150</span>
+                </div>
+            </div>
+        </div>
+        <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/The Power of your.jpeg" alt="The power of your subconscious Mind"></a>  
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">The Power Of Your Subconscious Mind</span> </b><br>
+                    <span><strike>Old Price: ₹320</strike></span><br> 
+                    <span class="detailheading">New Price: ₹275</span>
+                </div>
+            </div>
+        </div>
+        <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html" ><img src="./images/gopi diaries.jpeg" alt=" Gopi Diaries"></a>
+                       
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Gopi Diaries : Finding Love</span> </b><br>
+                    <span><strike>Old Price: ₹500</strike></span><br> 
+                    <span class="detailheading">New Price: ₹450</span>
+                </div>
+            </div>
+        </div>
+        <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage"> 
+                    <a href=" ./listing/listing.html"></a> <img src="./images/Do Epic Shit.jpeg" alt="Do Epic Shit"> </a> 
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Do Epic Shit</span> </b><br>
+                    <span><strike>Old Price: ₹250</strike></span><br> 
+                    <span class="detailheading">New Price: ₹200</span>
+                </div>
+            </div>
+        </div>
+        <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/12 Rules For Life.jpeg" alt="12 Rules For Life"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">12 Rules For Life</span> </b><br>
+                    <span><strike>Old Price: ₹400</strike></span><br> 
+                    <span class="detailheading">New Price: ₹360</span>
+                </div>
+            </div>
+        </div>
+        <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/Thinking Fast and slow.jpeg" alt="Thinking Fast and slow"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">Thinking Fast and slow</span> </b><br>
+                    <span><strike>Old Price: ₹290</strike></span><br> 
+                    <span class="detailheading">New Price: ₹265</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="viewmore container">
+            <a href="">View More</a>
+        </div>
+
+         <!-- New Releases Books-->
+         <div class=" header container">
+            <h1>New Releases Books</h1>
+        </div>
+        <div class=" bookwindow container">
+        <div class="row">
+        <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/The Book of Dog.jpg" alt="The Book of Dog"></a>    
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">The Book of Dog</span> </b><br>
+                    <span><strike>Old Price: ₹450</strike></span><br> 
+                    <span class="detailheading">New Price: ₹400</span>
+                </div>
+            </div>
+        </div>
+        <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="./images/The Punch Magazine.jpeg" alt="The Punch Magazine"></a>  
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">The Punch Magazine</span> </b><br>
+                    <span><strike>Old Price: ₹350</strike></span><br> 
+                    <span class="detailheading">New Price: ₹300</span>
+                </div>
+            </div>
+        </div>
+        <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html" ><img src="./images/India That Is Bharat.jpeg" alt=" India That Is Bharat"></a>
+                       
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">GIndia That Is Bharat</span> </b><br>
+                    <span><strike>Old Price: ₹600</strike></span><br> 
+                    <span class="detailheading">New Price: ₹560</span>
+                </div>
+            </div>
+        </div>
+        <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage"> 
+                    <a href=" ./listing/listing.html"></a> <img src="./images/Do Epic Shit.jpeg" alt="Do Epic Shit"> </a> 
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Do Epic Shit</span> </b><br>
+                    <span><strike>Old Price: ₹250</strike></span><br> 
+                    <span class="detailheading">New Price: ₹200</span>
+                </div>
+            </div>
+        </div>
+        <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/Heroes Of 1971.jpg" alt="Heroes Of 1971"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">Heroes Of 1971</span> </b><br>
+                    <span><strike>Old Price: ₹800</strike></span><br> 
+                    <span class="detailheading">New Price: ₹750</span>
+                </div>
+            </div>
+        </div>
+        <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="./images/Ballot.jpg" alt="Ballot"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">Ballot</span> </b><br>
+                    <span><strike>Old Price: ₹290</strike></span><br> 
+                    <span class="detailheading">New Price: ₹265</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="viewmore container">
+            <a href="">View More</a>
+        </div>
+        <!----Dicounts/banners-->
+        <div class="banner">
+            <a href=""><img src="./images/ad-banner2.png" class="img-responsive" alt="banner"></a> 
+        </div>
+      <!-- School Books-->
+      <div class=" header container">
+        <h1>School Books</h1>
+    </div>
+    <div class=" bookwindow container">
+    <div class="row">
+    <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href="./listing/listing.html"> <img src="./images/National Geographic Leaders.jpeg" alt="National Geographic Leaders"></a>    
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">National Geographic Leaders</span> </b><br>
+                <span><strike>Old Price: ₹550</strike></span><br> 
+                <span class="detailheading">New Price: ₹490</span>
+            </div>
+        </div>
+    </div>
+    <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href="./listing/listing.html"> <img src="./images/The Punch Magazine.jpeg" alt="The Punch Magazine"></a>  
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">National Geographic Leaders</span> </b><br>
+                <span><strike>Old Price: ₹350</strike></span><br> 
+                <span class="detailheading">New Price: ₹300</span>
+            </div>
+        </div>
+    </div>
+    <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href=" ./listing/listing.html" ><img src="./images/Nootan Saral Hindi Mala.jpeg" alt="Nootan Saral Hindi Mala"></a>
+                   
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">Nootan Saral Hindi Mala</span> </b><br>
+                <span><strike>Old Price: ₹300</strike></span><br> 
+                <span class="detailheading">New Price: ₹200</span>
+            </div>
+        </div>
+    </div>
+    <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage"> 
+                <a href=" ./listing/listing.html"></a> <img src="./images/GK Planet 3.jpeg" alt="GK Planet 3"> </a> 
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">GK Planet 3</span> </b><br>
+                <span><strike>Old Price: ₹350</strike></span><br> 
+                <span class="detailheading">New Price: ₹310</span>
+            </div>
+        </div>
+    </div>
+    <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href=" ./listing/listing.html"> <img src="./images/English Textbook Combo Pack.jpeg" alt="English Textbook Combo Pack"> </a>  
+            </div>
+            <div class="details">
+               <b> <span class="detailheading">English Textbook Combo Pack</span> </b><br>
+                <span><strike>Old Price: ₹550</strike></span><br> 
+                <span class="detailheading">New Price: ₹500</span>
+            </div>
+        </div>
+    </div>
+    <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href=" ./listing/listing.html"> <img src="./images/Active Teach.jpeg" alt="Active Teach"> </a>  
+            </div>
+            <div class="details">
+               <b> <span class="detailheading">Active Teach</span> </b><br>
+                <span><strike>Old Price: ₹290</strike></span><br> 
+                <span class="detailheading">New Price: ₹265</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="viewmore container">
+        <a href="">View More</a>
+    </div>
+    <!-- Fiction & Non Fiction Books-->
+    <div class=" header container">
+        <h1>Fiction & Non Fiction Books</h1>
+    </div>
+    <div class=" bookwindow container">
+    <div class="row">
+    <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href="./listing/listing.html"> <img src="./images/Gitanjali Hindi.jpg" alt="Gitanjali-  Hindi"></a>    
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">Gitanjali-  Hindi</span> </b><br>
+                <span><strike>Old Price: ₹690</strike></span><br> 
+                <span class="detailheading">New Price: ₹520</span>
+            </div>
+        </div>
+    </div>
+    <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href="./listing/listing.html"> <img src="./images/Salaam Bastar (hindi).jpeg" alt="Salaam Bastar (hindi)"></a>  
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">Salaam Bastar (hindi)</span> </b><br>
+                <span><strike>Old Price: ₹550</strike></span><br> 
+                <span class="detailheading">New Price: ₹510</span>
+            </div>
+        </div>
+    </div>
+    <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href=" ./listing/listing.html" ><img src="./images/Himachal Birds - A Visual Threat.jpeg" alt="Himachal Birds - A Visual Threat"></a>
+                   
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">Himachal Birds - A Visual Threat</span> </b><br>
+                <span><strike>Old Price: ₹900</strike></span><br> 
+                <span class="detailheading">New Price: ₹850</span>
+            </div>
+        </div>
+    </div>
+    <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage"> 
+                <a href=" ./listing/listing.html"></a> <img src="./images/Devdaas.jpeg" alt="Devdaas"> </a> 
+            </div>
+            <div class="details">
+                <b> <span class="detailheading">Devdaas</span> </b><br>
+                <span><strike>Old Price: ₹350</strike></span><br> 
+                <span class="detailheading">New Price: ₹310</span>
+            </div>
+        </div>
+    </div>
+    <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href=" ./listing/listing.html"> <img src="./images/Indian Foreign Affairs.jpeg" alt="Indian Foreign Affairs"> </a>  
+            </div>
+            <div class="details">
+               <b> <span class="detailheading">Indian Foreign Affairs</span> </b><br>
+                <span><strike>Old Price: ₹550</strike></span><br> 
+                <span class="detailheading">New Price: ₹510</span>
+            </div>
+        </div>
+    </div>
+    <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+        <div class="card">
+            <div class="productimage">
+                <a href=" ./listing/listing.html"> <img src="./images/Anger in Children.jpeg" alt="Anger in Children"> </a>  
+            </div>
+            <div class="details">
+               <b> <span class="detailheading">Anger in Children</span> </b><br>
+                <span><strike>Old Price: ₹390</strike></span><br> 
+                <span class="detailheading">New Price: ₹265</span>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="viewmore container">
+        <a href="">View More</a>
+    </div>
+    <!----Dicounts/banners-->
+    <div class="banner">
+        <a href="" ></a><img src="./images/keen to read books.jpg" class="img-responsive" alt="banner"></a>
+     </div>
+
+        
         <!--footer-->
-        <div class="footer">
+        <div class="footer container">
             <h2>&copy;By Suresh Kumar</h2>
         </div>
+    </div>
            
            
            
