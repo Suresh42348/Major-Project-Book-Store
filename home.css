@@ -368,19 +368,19 @@ html,body {
     
     .header > h1 {
         font-size: 43px;
-   }
+         }
    .bookwindow {
     margin-top: 12%;
-}
-.row {
+    }
+    .row {
     margin-left: 4%;
     margin-right: 4%;
-}
-#searchbar {
+    }
+    #searchbar {
    
     width: 80%;
     
-}
+    }
 }
 @media only screen 
 and (max-width : 671px) {
@@ -406,6 +406,9 @@ and (max-width : 671px) {
     .bookwindow {
         margin-top: 15%;
     }
+    #searchbar input[placeholder]{
+        font-size:12px;
+    }
     .row {
         width:auto;
         margin-left: -20px;
@@ -417,14 +420,34 @@ and (max-width : 671px) {
 /* media quries for mobiles */
 @media only screen 
    and (max-width : 414px) {
+    .search {
+        margin-top: 4%;
+        
+    }
+    .logo {
+        margin-top: -1%;
+    }
+    .login {
+        margin-top: 4%;
+    }
+    .header > h1 {
+        font-size: 30px;
+       }
        .viewmore{
            width:40%;
            margin-left:30%;
            font-size:20px;
        }
+       #searchbar input[placeholder]{
+        font-size:12px;
+    }
        .banner img{
         height:60%;
         width:100%
+    }
+    .footer > h2 {
+        text-align: center;
+        font-size: 17px;
     }
    }
    @media only screen 
@@ -434,25 +457,143 @@ and (max-width : 671px) {
            margin-left:30%;
            font-size:20px;
        }
+       #searchbar input[placeholder]{
+        font-size:12px;
+    }
        .banner img{
         height:50%;
         width:100%
+    }
+    .footer > h2 {
+        text-align: center;
+        font-size: 16px;
     }
    }
 @media only screen 
    and (max-width : 375px) {
+    .search {
+        margin-top: 4%;
+        
+    }
+    .logo {
+        margin-top: -1%;
+    }
+    .login {
+        margin-top: 4%;
+    }
        .viewmore{
            width:40%;
            margin-left:30%;
-           font-size:20px;
+           font-size:15px;
        }
+       .header > h1 {
+        font-size: 24px;
+       }
+       #searchbar input[placeholder]{
+        font-size:12px;
+    }
+    .details{
+        font-size:15px;
+    }
        
        
        .banner img{
         height:50%;
         width:100%
     }
+    .footer > h2 {
+        text-align: center;
+        font-size: 16px;
+    }
    }
+
+   @media only screen 
+   and (max-width : 280px) {
+      
+       .header > h1 {
+        font-size: 24px;
+       }
+
+       .row {
+        width: auto;
+        margin-left: -27px;
+        margin-right: -17px;
+       }
+       .productimage {
+        height: 193px;
+    }
+    .productimage img {
+        height: 193px;
+    }
+    .details{
+        height: 115 px;
+        font-size:13px;
+    }
+    .viewmore{
+        width:50%;
+        margin-left:25%;
+        font-size:15px;
+        margin-top: -25%;
+    }
+    .footer > h2 {
+        text-align: center;
+        font-size: 15px;
+    }
+    #searchbar {
+        float: left;
+        width: 76%;
+        
+    }
+    #searchbar input[placeholder]{
+        font-size:12px;
+    }
+
+    .logo > img {
+        height: 40px;
+        width: 92%;
+    }
+    .login {
+        margin-left: -5%;
+    }
+    .search {
+        width: 60%;
+        margin-left: -2%;
+    }
+    .logo {
+        width: 15%;
+        margin-left: 5%;
+    }
+    .social {
+        height: 36px; 
+   }
+   .icon {
+    height: 36px;
+    width:36px; 
+}
+.icon img {
+    height: 36px;
+    width:36px;
+    margin-right: -1%; 
+}
+.mebubar{
+    margin-top: -5%;
+}
+.search {
+    margin-top: 4%;
+    
+}
+.logo {
+    margin-top: 4%;
+}
+.login {
+    margin-top: 4%;
+}
+
+
+
+
+
+
 
 
 
