@@ -9,7 +9,7 @@ html,body {
     height:50px;
     width:100%;
     display:inline-block;
-    background-color:gray;
+    background-color:lightgray;
 }
 .icon{
     height:50px;
@@ -183,7 +183,7 @@ html,body {
 }
 .card{
     display:inline-flexbox;
-    width:108%;
+    width:105%;
     text-align:center;
     border-radius: 15px;
     box-shadow: 5px 5px 10px lightgray;
@@ -207,7 +207,7 @@ html,body {
 }
 .details{
     height:120px;
-    font-size:20px;
+    font-size:18px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     color:gray;
@@ -588,6 +588,7 @@ and (max-width : 671px) {
 .login {
     margin-top: 4%;
 }
+   }
 
 
 

@@ -1,0 +1,279 @@
+<html>
+    <head>
+        <title>Viewmore</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="listing.css" type="text/css">
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div class="social container">
+            <div style="margin-right:5%;">
+            
+            <div class="icon">
+               <a href=""><img src="../images/linkedin.png" class="img-responsive" alt ="facebook"> </a> 
+            </div>
+            <div class="icon">
+                <a href=""><img src="../images/instagram.png" class="img-responsive" alt ="facebook"> </a>
+            </div>
+            <div class="icon">
+               <a href=""> <img src="../images/twitter.png" class="img-responsive" alt ="facebook"> </a>
+            </div>
+            <div class="icon">
+               <a href=""><img src="../images/facebook.png" class="img-responsive" alt ="facebook"> </a> 
+            </div>
+            </div>
+            </div>
+        </div>
+        <div id="head container">
+            <div class="logo">
+                <img src="../images/logo.png" class="img-responsive">
+                
+            </div>
+            <div class="search container">
+                <div id="searchbar">
+                <input type="text" placeholder="Search by title, author or ISBN here..... " class="form-control"></div>
+                <div class="searchicon" ><button type="button"  class="btn"><span class="glyphicon glyphicon-search"></span></button>
+            </div></div>
+            <div class="login">
+                <button type="submit" class="btn btn-Success"> Login </button>
+        </div> 
+        
+        
+        <!-- menu bar-->
+        <div class="menubar container ">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target="#myNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                      BuyBooks <sub>india.com</sub>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse"style="text-align:center;" id="myNav">
+                <div class="first">
+                    <ul class="nav navbar-nav" >
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">School Books</a></li>
+                        <li><a href="#">Fiction &Non-fiction</a></li>
+                        <li><a href="#">Children &Adults</a></li>
+                        <li><a href="#">Exam Prepration</a></li>
+                    
+                        
+                    </ul>
+                </div>
+              
+                    
+                    <ul class="nav navbar-nav navbar-RIGHT">
+                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> Wishlist</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+                        
+                    </ul>
+                
+                </div>
+               
+            </div>
+        </nav>
+
+        </div>
+
+        <!-- sorting select box -->
+        <div id="sorting" class="container">
+           
+            <select id="sort">
+                <option>--Select</option>
+                <option> Newest</option>
+                <option>Price : Low to High</option>
+                <option>Price : High to Low</option>
+                <option>Letter : A to Z</option>
+                <option>Letter : Z to A</option>
+            </select>
+            <label for="#sort" style="float:right;font-size: x-large;font-weight: 100; line-height: 2;">Sort :&nbsp; </label>
+        </div>
+
+         <!--exam Preparation booklist-->
+         <div class=" header container">
+            <h1>Exam <u>Preparation</u> Books</h1>
+        </div>
+        <div class=" bookwindow container">
+        <div class="row">
+        <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="../images/india 2021.jpeg" alt="indian 2021"></a>    
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Indian 2021</span> </b><br>
+                    <span><strike>Old Price: ₹500</strike></span><br> 
+                    <span class="detailheading">New Price: ₹400</span>
+                </div>
+            </div>
+        </div>
+        <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href="./listing/listing.html"> <img src="../images/essay.jpeg" alt="Latest Probable Essays"></a>  
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Latest Probable Essays</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹275</span>
+                </div>
+            </div>
+        </div>
+        <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html" ><img src="../images/geography.jpeg" alt="Geography of India"></a>
+                       
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Geography of India</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹250</span>
+                </div>
+            </div>
+        </div>
+        <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage"> 
+                    <a href=" ./listing/listing.html"> <img src="../images/quantitative aptitude.jpeg" alt="Quantitative Aptitude"> </a> 
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Quantitative Aptitude</span> </b><br>
+                    <span><strike>Old Price: ₹250</strike></span><br> 
+                    <span class="detailheading">New Price: ₹220</span>
+                </div>
+            </div>
+        </div>
+        <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="../images/indianpolity.jpeg" alt="indian polity"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">Indian Polity</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹275</span>
+                </div>
+            </div>
+        </div>
+        <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="../images/english.jpg" alt="ENGLISH"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">General English 2022</span> </b><br>
+                    <span><strike>Old Price: ₹290</strike></span><br> 
+                    <span class="detailheading">New Price: ₹265</span>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- row2 -->
+        <div class="row">
+            <div id="first" class="col-lg-2 col-md-4 col-sm-4 col-xs-6">
+                <div class="card">
+                    <div class="productimage">
+                        <a href="./listing/listing.html"> <img src="../images/india 2021.jpeg" alt="indian 2021"></a>    
+                    </div>
+                    <div class="details">
+                        <b> <span class="detailheading">Indian 2021</span> </b><br>
+                        <span><strike>Old Price: ₹500</strike></span><br> 
+                        <span class="detailheading">New Price: ₹400</span>
+                    </div>
+                </div>
+            </div>
+            <div id="second" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+                <div class="card">
+                    <div class="productimage">
+                        <a href="./listing/listing.html"> <img src="../images/essay.jpeg" alt="Latest Probable Essays"></a>  
+                    </div>
+                    <div class="details">
+                        <b> <span class="detailheading">Latest Probable Essays</span> </b><br>
+                        <span><strike>Old Price: ₹300</strike></span><br> 
+                        <span class="detailheading">New Price: ₹275</span>
+                    </div>
+                </div>
+            </div>
+        <div id="third" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html" ><img src="../images/geography.jpeg" alt="Geography of India"></a>
+                       
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Geography of India</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹250</span>
+                </div>
+            </div>
+        </div>
+        <div id="fourth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage"> 
+                    <a href=" ./listing/listing.html"> <img src="../images/quantitative aptitude.jpeg" alt="Quantitative Aptitude"> </a> 
+                </div>
+                <div class="details">
+                    <b> <span class="detailheading">Quantitative Aptitude</span> </b><br>
+                    <span><strike>Old Price: ₹250</strike></span><br> 
+                    <span class="detailheading">New Price: ₹220</span>
+                </div>
+            </div>
+        </div>
+        <div id="fifth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="../images/indianpolity.jpeg" alt="indian polity"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">Indian Polity</span> </b><br>
+                    <span><strike>Old Price: ₹300</strike></span><br> 
+                    <span class="detailheading">New Price: ₹275</span>
+                </div>
+            </div>
+        </div>
+        <div id="sixth" class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
+            <div class="card">
+                <div class="productimage">
+                    <a href=" ./listing/listing.html"> <img src="../images/english.jpg" alt="ENGLISH"> </a>  
+                </div>
+                <div class="details">
+                   <b> <span class="detailheading">General English 2022</span> </b><br>
+                    <span><strike>Old Price: ₹290</strike></span><br> 
+                    <span class="detailheading">New Price: ₹265</span>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+        
+        
+
+          
+        <!--footer-->
+        <div class="footer container">
+            <h2>&copy;By Suresh Kumar</h2>
+        </div>
+    </div>
+           
+           
+           
+
+    </body>
+</html>

@@ -114,169 +114,21 @@ html,body {
     
   }
 
-/* sorting */
+/* login form */
 
-#sorting{
-    height:40px;
-}
-select{
-    height:45px;
-    width:30%;
-    border-radius: 10px;
-    float:right;
-    font-size:20px;
-}
-/*booklist*/
-
-.header{
-    margin-top:1%;
-    height:60PX;
-    text-align:center;
-    position:relative;
-
-
-}
-.header > h1{
-      font-family: 'Times New Roman', Times, serif;
-      font-weight: bolder;
-      font-size:60px;
-      
-}
-u{
-    text-decoration-color: red;
-    text-decoration-line: underline;
-    
-    
-}
-.row{
-    margin-left:6%;
-    margin-right:6%;
-}
-.bookwindow{
-    width:100%;
-    margin-top:4%;
-    position:relative; 
+.loginform{
+    margin-left:25%;
+    margin-right:25%;
+    width:50%;
+    margin-top:6%;
+    margin-bottom:5%;
     
 
-}
-/* containers for books */
-#first{
-    height:440px;
-    /* background-color:skyblue; */
-}
-#second{
-    height:440px;
-    /* background-color:rgb(217, 240, 136); */
-    
-}
-#third{
-    height:440px;
-    /* background-color:rgb(238, 179, 155); */
-}
-#fourth{
-    height:440px;
-    /* background-color:rgb(240, 159, 236); */
-}
-#fifth{
-    height:440px;
-    /* background-color:rgb(94, 134, 221); */
-}
-#sixth{
-    height:440px;
-    /* background-color:rgb(209, 198, 102); */
-}
-.card{
-    display:inline-flexbox;
-    width:100%;
-    text-align:center;
-    border-radius: 15px;
-    box-shadow: 5px 5px 10px lightgray;
-    transition: transform .2s;
-    border:ipx groove lightgray;
-    }
-.card:hover {
-    -ms-transform: scale(1.05); 
-     -webkit-transform: scale(1.05); 
-     transform: scale(1.05);
-     
-    }
-.productimage{
-    height:300px;
-}
-.productimage  img{
-    height:300px;
-    width:100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-.details{
-    height:120px;
-    font-size:18px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    color:gray;
-
-}
-.detailheading{
-    color:black;
-
-}
-
-
-
-.footer{
-    margin-top:4%;
-    height:auto;
-    width:100%;
-    display:inline-block;
-    background-color: lightgray;
-}
-.footer > h2{
-    text-align:center;
 }
 
 /* media Queries */
-@media only screen 
-   and (max-width : 1464px) {
+
    
-    .row {
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .productimage {
-        height: 266px;
-    }
-    .productimage img {
-        height: 266px;
-    }
-    .details {
-        
-        font-size:18px;
-    }
-
-   }
-
-   @media only screen 
-   and (max-width : 1371px) {
-       .viewmore{
-           width:15%;
-       }
-   }
-
-   @media only screen 
-   and (max-width : 1371px) {
-       .viewmore{
-           width:20%;
-           margin-left:39%;
-       }
-    
-    .header > h1 {
-        font-size: 53px;
-   }
-   .bookwindow {
-    margin-top: 7%;
-}
-}
 @media only screen 
    and (max-width : 1253px) {
     .search {
@@ -314,34 +166,11 @@ u{
          margin-left: 2%;
      }
      }
-   @media only screen 
-   and (max-width : 765px) {
-    .bookwindow {
-        margin-top: 12%;
-    }
-    .row {
-        width: 86%;
-    margin-left: 7%;
-    margin-right: 7%;
-    }
-
-   }
    
 
 @media only screen 
    and (max-width : 693px) {
-      
-    
-    .header > h1 {
-        font-size: 43px;
-         }
-   .bookwindow {
-    margin-top: 12%;
-    }
-    .row {
-    margin-left: 4%;
-    margin-right: 4%;
-    }
+   
     #searchbar {
    
     width: 80%;
@@ -369,17 +198,10 @@ and (max-width : 671px) {
 
 @media only screen 
    and (max-width : 514px) {
-    .bookwindow {
-        margin-top: 15%;
-    }
+   
     #searchbar input[placeholder]{
         font-size:12px;
     }
-    .row {
-        width:auto;
-        margin-left: -20px;
-        margin-right: -1px;
-}
    
 }
 
@@ -396,18 +218,12 @@ and (max-width : 671px) {
     .login {
         margin-top: 4%;
     }
-    .header > h1 {
-        font-size: 30px;
-       }
-      
+   
        #searchbar input[placeholder]{
         font-size:12px;
     }
       
-    .footer > h2 {
-        text-align: center;
-        font-size: 17px;
-    }
+    
    }
    @media only screen 
    and (max-width : 390px) {
@@ -416,10 +232,7 @@ and (max-width : 671px) {
         font-size:12px;
     }
      
-    .footer > h2 {
-        text-align: center;
-        font-size: 16px;
-    }
+    
    }
 @media only screen 
    and (max-width : 375px) {
@@ -434,51 +247,16 @@ and (max-width : 671px) {
         margin-top: 4%;
     }
       
-       .header > h1 {
-        font-size: 24px;
-       }
+      
        #searchbar input[placeholder]{
         font-size:12px;
     }
-    .details{
-        font-size:15px;
-    }
-       
-       
-     
-    .footer > h2 {
-        text-align: center;
-        font-size: 16px;
-    }
+   
    }
 
    @media only screen 
    and (max-width : 280px) {
       
-       .header > h1 {
-        font-size: 24px;
-       }
-
-       .row {
-        width: auto;
-        margin-left: -27px;
-        margin-right: -17px;
-       }
-       .productimage {
-        height: 193px;
-    }
-    .productimage img {
-        height: 193px;
-    }
-    .details{
-        height: 115 px;
-        font-size:13px;
-    }
-   
-    .footer > h2 {
-        text-align: center;
-        font-size: 15px;
-    }
     #searchbar {
         float: left;
         width: 76%;

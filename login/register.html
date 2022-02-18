@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="login.css" type="text/css">
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+        <div class="social container">
+            <div style="margin-right:5%;">
+            
+            <div class="icon">
+               <a href=""><img src="../images/linkedin.png" class="img-responsive" alt ="facebook"> </a> 
+            </div>
+            <div class="icon">
+                <a href=""><img src="../images/instagram.png" class="img-responsive" alt ="facebook"> </a>
+            </div>
+            <div class="icon">
+               <a href=""> <img src="../images/twitter.png" class="img-responsive" alt ="facebook"> </a>
+            </div>
+            <div class="icon">
+               <a href=""><img src="../images/facebook.png" class="img-responsive" alt ="facebook"> </a> 
+            </div>
+            </div>
+            </div>
+        </div>
+        <div id="head container">
+            <div class="logo">
+                <img src="../images/logo.png" class="img-responsive">
+                
+            </div>
+            <div class="search container">
+                <div id="searchbar">
+                <input type="text" placeholder="Search by title, author or ISBN here..... " class="form-control"></div>
+                <div class="searchicon" ><button type="button"  class="btn"><span class="glyphicon glyphicon-search"></span></button>
+            </div></div>
+            <div class="login">
+                <button type="submit" class="btn btn-Success"> Login </button>
+        </div> 
+        
+        
+        <!-- menu bar-->
+        <div class="menubar container ">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle"
+                    data-toggle="collapse" data-target="#myNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                      BuyBooks <sub>india.com</sub>
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse"style="text-align:center;" id="myNav">
+                <div class="first">
+                    <ul class="nav navbar-nav" >
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">New Releases</a></li>
+                        <li><a href="#">School Books</a></li>
+                        <li><a href="#">Fiction &Non-fiction</a></li>
+                        <li><a href="#">Children &Adults</a></li>
+                        <li><a href="#">Exam Prepration</a></li>
+                    
+                        
+                    </ul>
+                </div>
+              
+                    
+                    <ul class="nav navbar-nav navbar-RIGHT">
+                        <li><a href="#"><span class="glyphicon glyphicon-heart"></span> Wishlist</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>Cart</a></li>
+                        
+                    </ul>
+                
+                </div>
+               
+            </div>
+        </nav>
+
+        </div>
+
+        <!-- login form -->
+        <div class="container">
+            <br/>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3>Registration Form</h3>
+                </div>
+                <div class="panel-body">
+                    <form action="#" method="get">
+                        <div class="row">
+                        <div class="col-md-6">
+                        <div class="form-group ">
+                            <label class="control-label" for="fname">FirstName</label>
+                            <input type="text" class="form-control" id="fname"
+                            name="fname" required/>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="lname">LastName</label>
+                            <input type="text" class="form-control" id="lname"
+                            name="lname"/>
+                        </div>
+                    </div>
+                        
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email"
+                                    name="email"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="pwd">Phone</label>
+                                    <input type="phone" class="form-control" id="phone"
+                                    name="phone" minlength="10" maxlength="10"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="city">City</label>
+                                   <select class="form-control" id="city">
+                                       <option>Delhi</option>
+                                       <option>Mumbai</option>
+                                       <option>NewYork</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="dob">D.O.B</label>
+                                    <input type="date" class="form-control" id="dob"
+                                    name="dob" minlength="8"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Radio--->
+                        <div class="radio">
+                            <label for="gender" style="font-weight: bold;">Gender : </label>
+                            <label>
+                             <input type="radio" value="female" name="gender" id="gender">Male
+                            </label>
+                       
+                            <label>
+                                <input type="radio" value="male" name="gender" id="gender">Female
+                            </label>
+                            <label>
+                                <input type="radio" value="male" name="gender" id="gender">Other
+                            </label>
+                        </div>
+                        
+                        <button class="btn btn-success" type="submit">
+                            Register
+                        </button>
+                    </form>
+                </div>  
+            </div>
+            
+        </div>
+                </div>
+
+
+     
+    
+</body>
+</html>
