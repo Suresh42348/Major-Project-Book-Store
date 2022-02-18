@@ -352,7 +352,7 @@ html,body {
     }
     .row {
         width: 86%;
-    margin-left: 7%;
+    margin-left: 6%;
     margin-right: 7%;
     }
 
@@ -403,6 +403,13 @@ and (max-width : 671px) {
 
 @media only screen 
    and (max-width : 514px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
     .bookwindow {
         margin-top: 15%;
     }
@@ -411,8 +418,8 @@ and (max-width : 671px) {
     }
     .row {
         width:auto;
-        margin-left: -20px;
-        margin-right: -1px;
+        margin-left: -12px;
+        margin-right: 0;
 }
    
 }
@@ -420,6 +427,16 @@ and (max-width : 671px) {
 /* media quries for mobiles */
 @media only screen 
    and (max-width : 414px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+    .header > h1 {
+        font-size: 20px;
+       }
     .search {
         margin-top: 4%;
         
@@ -452,6 +469,16 @@ and (max-width : 671px) {
    }
    @media only screen 
    and (max-width : 390px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+    .header > h1 {
+        font-size: 20px;
+       }
        .viewmore{
            width:40%;
            margin-left:30%;
@@ -471,6 +498,17 @@ and (max-width : 671px) {
    }
 @media only screen 
    and (max-width : 375px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+    .header > h1 {
+        font-size: 20px;
+       }
+    
     .search {
         margin-top: 4%;
         
@@ -481,6 +519,11 @@ and (max-width : 671px) {
     .login {
         margin-top: 4%;
     }
+    .row {
+        width: auto;
+        margin-left: -24px;
+        margin-right: -15px;
+       }
        .viewmore{
            width:40%;
            margin-left:30%;
@@ -509,15 +552,27 @@ and (max-width : 671px) {
 
    @media only screen 
    and (max-width : 280px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
       
        .header > h1 {
-        font-size: 24px;
+        font-size: 20px;
        }
 
-       .row {
+
+       /* .row {
         width: auto;
-        margin-left: -27px;
-        margin-right: -17px;
+        margin-left: -24px;
+        margin-right: -15px;
+       } */
+       .card{
+           width:110%;
+
        }
        .productimage {
         height: 193px;

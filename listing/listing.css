@@ -53,6 +53,13 @@ html,body {
     margin-top:1%;
     border-radius:15PX;
 }
+#sorting label{
+    float:right;
+    font-size: x-large;
+    font-weight: 100;
+     line-height: 2;
+
+}
 #searchbar{
     float:left;
     width:92%;
@@ -316,12 +323,20 @@ u{
      }
    @media only screen 
    and (max-width : 765px) {
+    select{
+        height:35px;
+    }
+    #sorting label{
+        font-size:20px;
+        line-height:2;
+    }
     .bookwindow {
+
         margin-top: 12%;
     }
     .row {
         width: 86%;
-    margin-left: 7%;
+    margin-left: 6%;
     margin-right: 7%;
     }
 
@@ -369,6 +384,19 @@ and (max-width : 671px) {
 
 @media only screen 
    and (max-width : 514px) {
+    select{
+        height:30px;
+    }
+    #sorting label{
+        line-height:1.5;
+    }
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
     .bookwindow {
         margin-top: 15%;
     }
@@ -377,8 +405,8 @@ and (max-width : 671px) {
     }
     .row {
         width:auto;
-        margin-left: -20px;
-        margin-right: -1px;
+        margin-left: -12px;
+        margin-right: -9px;
 }
    
 }
@@ -386,6 +414,16 @@ and (max-width : 671px) {
 /* media quries for mobiles */
 @media only screen 
    and (max-width : 414px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+    .header > h1 {
+        font-size: 20px;
+       }
     .search {
         margin-top: 4%;
         
@@ -411,6 +449,16 @@ and (max-width : 671px) {
    }
    @media only screen 
    and (max-width : 390px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+    .header > h1 {
+        font-size: 20px;
+       }
       
        #searchbar input[placeholder]{
         font-size:12px;
@@ -423,6 +471,16 @@ and (max-width : 671px) {
    }
 @media only screen 
    and (max-width : 375px) {
+    .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
+    .header > h1 {
+        font-size: 20px;
+       }
     .search {
         margin-top: 4%;
         
@@ -433,7 +491,12 @@ and (max-width : 671px) {
     .login {
         margin-top: 4%;
     }
-      
+     
+    .row {
+        width: auto;
+        margin-left: -24px;
+        margin-right: -15px;
+       }
        .header > h1 {
         font-size: 24px;
        }
@@ -454,16 +517,27 @@ and (max-width : 671px) {
 
    @media only screen 
    and (max-width : 280px) {
+          .social {
+        height: 30px;
+    }
+    .icon {
+        height: 30px;
+        width: 30px;
+    }
       
        .header > h1 {
-        font-size: 24px;
+        font-size: 20px;
        }
 
-       .row {
+       /* .row {
         width: auto;
         margin-left: -27px;
         margin-right: -17px;
-       }
+       } */
+       .card{
+        width:110%;
+
+    }
        .productimage {
         height: 193px;
     }
