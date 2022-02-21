@@ -188,7 +188,7 @@ html,body {
     border-radius: 15px;
     box-shadow: 5px 5px 10px lightgray;
     transition: transform .2s;
-    border:ipx groove lightgray;
+    border:2px groove lightgray;
     }
 .card:hover {
     -ms-transform: scale(1.05); 
@@ -262,6 +262,9 @@ html,body {
 }
 
 /* media Queries */
+
+
+
 @media only screen 
    and (max-width : 1464px) {
    
