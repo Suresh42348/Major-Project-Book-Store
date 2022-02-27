@@ -3,19 +3,47 @@ html,body {
     padding:0;
     overflow-x:hidden;
 }
+/* light dark mode */
+.mydark{
+    background-color:black;
+    color:white ;
+ }
+ .mystyle{
+    background-color:black;
+    color:white ;
+ }
+
 /*social Links*/
 
 .social{
-    height:50px;
+    height:40px;
     width:100%;
     display:inline-block;
     background-color:lightgray;
 }
+#btn{
+    margin-top:2px;
+    padding:0;
+    border:0px lightgrey;
+    
+}
+#lightmode{
+    height:35px;
+    width:100%;
+    border-radius:10px;
+}
+.lightdark{
+    height:35px;
+    float:right;
+
+}
 .icon{
-    height:50px;
-    width:50px;
+    height:40px;
+    width:40px;
     margin-right:1%;
     float:right;
+    border-radius: 50%;
+   
 
 }
 .icon  img{
@@ -233,7 +261,7 @@ html,body {
     line-height: 2.5;
     font-size:20px;
     text-decoration:none;
-    color:black;
+    color:grey;
     font-weight:600;
 }
 
@@ -423,6 +451,20 @@ and (max-width : 671px) {
         width:auto;
         margin-left: -12px;
         margin-right: 0;
+}
+#btn{
+    margin-top:2px;
+}
+
+#lightmode{
+    height:25px;
+    width:100%;
+    border-radius:10px;
+}
+.lightdark{
+    height:25px;
+    float:right;
+
 }
    
 }
