@@ -21,6 +21,16 @@ html,body {
     display:inline-block;
     background-color:lightgray;
 }
+.weather{
+    float:left;
+}
+#city{
+    
+    font-weight: bold;
+}
+#weather{
+    font-weight: bold;
+}
 #btn{
     margin-top:2px;
     padding:0;
@@ -43,10 +53,20 @@ html,body {
     margin-right:1%;
     float:right;
     border-radius: 50%;
+}
+.weathericon{
+    height:40px;
+    width:40px;
+    margin-right:1%;
+    float:left;
+    border-radius: 50%;
    
 
 }
-.icon  img{
+.icon img{
+    width:100%;
+}
+.weathericon img{
     width:100%;
 }
 /*header started*/
@@ -441,6 +461,19 @@ and (max-width : 671px) {
         height: 30px;
         width: 30px;
     }
+    .weathericon {
+        height: 30px;
+        width: 30px;   
+    }
+    #city{
+        font-size: 10px;
+        margin-left:2px;
+    }
+    #weather{
+        font-size: 10px;
+        margin-left:2px;
+    }
+
     .bookwindow {
         margin-top: 15%;
     }

@@ -9,10 +9,20 @@
         <link rel="stylesheet" href="home.css" type="text/css">
         <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
         <script src="home.js"></script>
-    </head>
+        
     <body>
         <div class="container-fluid">
         <div id="social" class="social container">
+            <!-- geolocation and weather -->
+            <div class="weather">
+           <img src="./images/weather.png" class="weathericon">
+            <span id="weather"> </span>
+            <span id="city"> </span> 
+            <!--adding geo.js file and calling geolcation function on window load -->
+            <script src="geo.js"></script>
+            <script>window.onload=geolocation();</script>
+            </div>
+            
             <div style="margin-right:5%;">
                 <div  class="lightdark">
                 <button id="btn" type="button" onclick="changeMode()"><img id="lightmode" src=./images/light.png> </button></div>
@@ -653,7 +663,9 @@
     </div>
            
            
-           
-
+    
+    
+    
     </body>
+    
 </html>
