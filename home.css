@@ -36,7 +36,7 @@ html,body {
 #btn{
     margin-top:2px;
     padding:0;
-    border:0px lightgrey;
+    border:0px #222222 ;
     
 }
 #lightmode{
@@ -47,6 +47,7 @@ html,body {
 .lightdark{
     height:35px;
     float:right;
+    background-color: #222222;
 
 }
 .icon{
