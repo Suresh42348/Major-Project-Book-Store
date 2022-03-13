@@ -78,7 +78,6 @@ html,body {
     height:300px;
     width:600px;
     z-index:100;
-    background-color: green;
     background-repeat: no-repeat;
     background-size:100% 300px;
     visibility: hidden;
