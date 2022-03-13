@@ -73,6 +73,26 @@ html,body {
 .weathericon img{
     width:100%;
 }
+/* coupon */
+#coupon{
+    height:300px;
+    width:600px;
+    z-index:100;
+    background-color: green;
+    background-repeat: no-repeat;
+    background-size:100% 300px;
+    visibility: hidden;
+    margin-top:10%;
+    background-image:url(./images/coupon.webp);
+    margin-left: 33%;
+    position: absolute;
+    box-shadow: 5px 5px 5px lightgrey;
+    border:2px solid lightgray;
+}
+
+#cut{
+    background-color: red;
+}
 /*header started*/
 #head{
     margin-top:4px;
