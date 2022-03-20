@@ -1,0 +1,133 @@
+
+[    
+    {
+        "id": 1,
+        "Book_Name": "India 2021",
+        "category": "Exam Preparation Books",
+        "category_id": 1,
+        "Price": 400,
+        "Image":"https://i.ibb.co/qFMgGWt/india-2021.jpg",
+        "author": "EDITORIAL BOARD",
+        "publisher":"PUBLICATIONS DIVISION"
+    },
+    {
+       "id": 2,
+        "Book_Name": "Latest Probable Essays",
+        "category": "Exam Preparation Books",
+        "category_id": 1,
+        "Price": 275,
+        "Image":"https://i.ibb.co/rM5vkVM/essay.jpg",
+        "author": "R.S.Dhillon",
+        "publisher":"APC BOOKS"
+    },
+    {
+        "id": 3,
+        "Book_Name": "Geography of India",
+        "category": "Exam Preparation Books",
+        "category_id": 1,
+        "Price": 250,
+        "Image":"https://i.ibb.co/tYxhxZ9/geography.jpg", 
+        "author": "Majid Hussain",
+        "publisher": "McGraw Hill Education"
+    },
+    {
+         "id": 4,
+        "Book_Name": "Quantitative Aptitude",
+        "category": "Exam Preparation Books",
+        "category_id": 1,
+        "Price": 220,
+        "Image":"https://i.ibb.co/yf83Hnp/quantitative-aptitude.jpg" , 
+        "author": "Dr. R. S. Aggarwal",
+        "publisher": "S. CHAND AND COMPANY LIMITED"
+    },
+     {
+         "id": 5,
+        "Book_Name": "Indian Polity",
+        "category": "Exam Preparation Books",
+        "category_id": 1,
+        "Price": 275,
+        "Image":"https://i.ibb.co/VW1C3dN/indianpolity.jpg"  , 
+        "author": "M. LaXmikanth",
+        "publisher": "McGraw Hill Education"
+    },
+    {
+         "id": 6,
+        "Book_Name": "General English 2022",
+        "category": "Exam Preparation Books",
+        "category_id": 1,
+        "Price": 265,
+        "Image":"https://i.ibb.co/YjNxVVG/english.jpg"  , 
+        "author": "Educart",
+        "publisher": "Agrawal Group Of Publications"
+    }, 
+    
+    
+    {
+        "id": 7,
+       "Book_Name": "101 Panchtantra Stories",
+       "category": "Children & Adult Books",
+       "category_id": 2,
+       "Price": 450,
+       "Image":"https://i.ibb.co/LzXMKfd/panchtantra.jpg"  , 
+       "author": "Wonder House Books",
+       "publisher": "Wonder House Books"
+   },
+
+   {
+    "id": 8,
+   "Book_Name": "Thea Stilton and the Dancing Shadows",
+   "category": "Children & Adult Books",
+   "category_id": 2,
+   "Price": 275,
+   "Image":"https://i.ibb.co/Cv3DJnZ/stilton.jpg" , 
+   "author": "Geronimo Stilton",
+   "publisher": "Scholastic India Pvt. Ltd."
+}, 
+
+{
+    "id": 9,
+   "Book_Name": "Gopi Diaries : Finding Love",
+   "category": "Children & Adult Books",
+   "category_id": 2,
+   "Price": 450,
+   "Image":"https://i.ibb.co/jGbhtJ4/gopi-diaries.jpg" , 
+   "author": "Sudha Murty",
+   "publisher": "Harper Collins Childrens Books"
+}, 
+
+{
+    "id": 10,
+   "Book_Name": "Flowers - Jigsaw Puzzle",
+   "category": "Children & Adult Books",
+   "category_id": 2,
+   "Price": 220,
+   "Image":"https://i.ibb.co/WcRR9RH/Flowers.jpg" , 
+   "author": "Advit Toys",
+   "publisher": "Advit Toys"
+}, 
+
+{
+    "id": 11,
+   "Book_Name": "My First Library Pack 2",
+   "category": "Children & Adult Books",
+   "category_id": 2,
+   "Price": 590,
+   "Image":"https://i.ibb.co/CBr2FCR/library-pack-2.jpg" , 
+   "author": " Wonder House Books",
+   "publisher": " Wonder House Books"
+}, 
+
+{
+    "id": 12,
+   "Book_Name": "A Song of Ice and Fire",
+   "category": "Children & Adult Books",
+   "category_id": 2,
+   "Price": 530,
+   "Image":"https://i.ibb.co/xCFqH6s/A-song-of-Ice.jpg"   , 
+   "author": " George R R Martin",
+   "publisher": " Harpercollins Publisher, UK"
+} 
+
+
+
+]

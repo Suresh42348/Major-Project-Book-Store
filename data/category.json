@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "category": "Exam Preparation Books"
+    },
+    {
+        "id":2,
+        "category":"Children & Adult Books"
+    },
+    {
+        "id":3,
+        "category":"Bestsellers Books"
+    },
+    {
+        "id":4,
+        "category":"New Releases Books"
+    },
+    {
+        "id":5,
+        "category":"School Books"
+    },
+    {
+        "id":6,
+        "category":"Fiction & Non Fiction Books"
+    }
+
+]
