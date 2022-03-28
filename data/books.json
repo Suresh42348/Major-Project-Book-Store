@@ -126,8 +126,136 @@
    "Image":"https://i.ibb.co/xCFqH6s/A-song-of-Ice.jpg"   , 
    "author": " George R R Martin",
    "publisher": " Harpercollins Publisher, UK"
-} 
+},
 
+{
+    "id": 13,
+   "Book_Name": "It Ends With Us",
+   "category": "Bestsellers Books",
+   "category_id": 3,
+   "Price": 150,
+   "Image":"https://i.ibb.co/SRwFMVB/It-Ends-With-Us.jpg"   , 
+   "author": "Colleen Hoover",
+   "publisher": "Simon & Schuster India"
+},
+{
+    "id": 14,
+   "Book_Name": "The Power Of Your Subconscious Mind",
+   "category": "Bestsellers Books",
+   "category_id": 3,
+   "Price": 275,
+   "Image":"https://i.ibb.co/0BSWP6r/The-Power-of-your.jpg" , 
+   "author": "Joseph Murphy",
+   "publisher": "SRISHTI PUBLISHERS & DISTRIBUTORS"
+},
+{
+    "id": 15,
+   "Book_Name": "Gopi Diaries : Finding Love",
+   "category": "Bestsellers Books",
+   "category_id": 3,
+   "Price": 450,
+   "Image":"https://i.ibb.co/p1M5cLH/gopi-diaries.jpg" , 
+   "author": "Sudha Murty",
+   "publisher": "Harper Collins Childrens Booksy"
+},
+{
+    "id": 16,
+   "Book_Name": "Do Epic Shit",
+   "category": "Bestsellers Books",
+   "category_id": 3,
+   "Price": 200,
+   "Image":"https://i.ibb.co/bJgcSLW/Do-Epic-Shit.jpg" , 
+   "author": "Ankur Warikoo",
+   "publisher": "Juggernaut"
+},
+{
+    "id": 17,
+   "Book_Name": "12 Rules For Life",
+   "category": "Bestsellers Books",
+   "category_id": 3,
+   "Price": 360,
+   "Image":"https://i.ibb.co/gFBgPch/12-Rules-For-Life.jpg"  , 
+   "author": "Jordan B. Peterson",
+   "publisher": "Penguin Random House India Pvt. Ltd."
+},
+{
+    "id": 18,
+   "Book_Name": "12 Rules For Life",
+   "category": "Bestsellers Books",
+   "category_id": 3,
+   "Price": 265,
+   "Image":"https://i.ibb.co/Wf21TpK/Thinking-Fast-and-slow.jpg"   , 
+   "author": "Jordan B. Peterson",
+   "publisher": "Penguin Random House India Pvt. Ltd."
+},
+{
+    "id": 19,
+   "Book_Name": "The Book of Dog",
+   "category": "New Releases Books",
+   "category_id": 4,
+   "Price": 400,
+   "Image":"https://i.ibb.co/mFT2Ccw/The-Book-of-Dog.jpg"    , 
+   "author": "Hemali Sodhi",
+   "publisher": "HarperCollins India"
+},
+
+{
+    "id": 20,
+   "Book_Name": "The Punch Magazine",
+   "category": "New Releases Books",
+   "category_id": 4,
+   "Price": 300,
+   "Image":"https://i.ibb.co/MptzGPR/The-Punch-Magazine.jpg"     , 
+   "author": "Shireen Quadri",
+   "publisher": "Shireen Quadri"
+},
+{
+    "id": 21,
+   "Book_Name": "India That Is Bharat",
+   "category": "New Releases Books",
+   "category_id": 4,
+   "Price": 560,
+   "Image":"https://i.ibb.co/vhZgR5w/India-That-Is-Bharat.jpg"     , 
+   "author": "J. Sai Deepak",
+   "publisher": "Bloomsbury Publishing India Pvt. Ltd."
+},
+ 
+{
+    "id": 22,
+    "Book_Name": "Do Epic Shit",
+    "category": "New Releases Books",
+    "category_id": 4,
+    "Price": 200,
+    "Image":"https://i.ibb.co/bJgcSLW/Do-Epic-Shit.jpg" , 
+    "author": "Ankur Warikoo",
+    "publisher": "Juggernaut"
+},
+
+{
+    "id": 22,
+    "Book_Name": "Heroes Of 1971",
+    "category": "New Releases Books",
+    "category_id": 4,
+    "Price": 750,
+    "Image":"https://i.ibb.co/V29gKGx/Heroes-Of-1971.jpg"  , 
+    "author": "Rajesh Ramachandran (ed.)",
+    "publisher": "HarperCollins India"
+},
+
+{
+    "id": 22,
+    "Book_Name": "Ballot",
+    "category": "New Releases Books",
+    "category_id": 4,
+    "Price": 265,
+    "Image":"https://i.ibb.co/k6kxXzW/Ballot.jpg"  , 
+    "author": "Rasheed Kidwai",
+    "publisher": "Hachette India"
+}
+ 
+ 
+ 
+ 
 
 
 ]
