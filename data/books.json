@@ -232,7 +232,7 @@
 },
 
 {
-    "id": 22,
+    "id": 23,
     "Book_Name": "Heroes Of 1971",
     "category": "New Releases Books",
     "category_id": 4,
@@ -243,7 +243,7 @@
 },
 
 {
-    "id": 22,
+    "id": 24,
     "Book_Name": "Ballot",
     "category": "New Releases Books",
     "category_id": 4,
@@ -251,7 +251,122 @@
     "Image":"https://i.ibb.co/k6kxXzW/Ballot.jpg"  , 
     "author": "Rasheed Kidwai",
     "publisher": "Hachette India"
+},
+
+{
+    "id": 25,
+    "Book_Name": "National Geographic Leaders",
+    "category": "School Books",
+    "category_id": 5,
+    "Price": 490,
+    "Image":"https://i.ibb.co/8zd6VPZ/National-Geographic-Leaders.jpg"   , 
+    "author": "Laura Marsh",
+    "publisher": "Harpercollins Publisher, UK"
+},
+{
+    "id": 26,
+    "Book_Name": "National Geographic Leaders",
+    "category": "School Books",
+    "category_id": 5,
+    "Price": 300,
+    "Image":"https://i.ibb.co/41rGXxP/The-Punch-Magazine.jpg"   , 
+    "author": "Shireen Quadri",
+    "publisher": "Niyogi Books"
+},
+{
+    "id": 27,
+    "Book_Name": "Nootan Saral Hindi Mala",
+    "category": "School Books",
+    "category_id": 5,
+    "Price": 200,
+    "Image":"https://i.ibb.co/MkBYPjL/Nootan-Saral-Hindi-Mala.jpg"    , 
+    "author": "Kavita Basu, A.K. Mishra, Sudhama Prasad",
+    "publisher": "GOYAL BROTHERS PRAKASHAN"
+},
+{
+    "id": 28,
+    "Book_Name": "GK Planet 3",
+    "category": "School Books",
+    "category_id": 5,
+    "Price": 310,
+    "Image":"https://i.ibb.co/ZffWffT/GK-Planet-3.jpg"    , 
+    "author": "Kavita Basu, A.K. Mishra, Sudhama Prasad",
+    "publisher": "GOYAL BROTHERS PRAKASHAN"
+},
+{
+    "id": 29,
+    "Book_Name": "English Textbook Combo Pack",
+    "category": "School Books",
+    "category_id": 5,
+    "Price": 342,
+    "Image":"https://i.ibb.co/whRD1RJ/English-Textbook-Combo-Pack.jpg"   , 
+    "author": "National Council Of Education Research and Training",
+    "publisher": "National Council Of Education Research and Training"
+},
+{
+    "id": 30,
+    "Book_Name": "Active Teach",
+    "category": "School Books",
+    "category_id": 5,
+    "Price": 265,
+    "Image":"https://i.ibb.co/P51tkg5/Active-Teach.jpg"   , 
+    "author": "Vipul Singh",
+    "publisher": "PEARSON INDIA EDUCATION SERVICES PRIVATE LIMITED"
+},
+{
+    "id": 31,
+    "Book_Name": "Gitanjali- Hindi",
+    "category": "Fiction & Non Fiction Books",
+    "category_id": 6,
+    "Price": 520,
+    "Image":"https://i.ibb.co/RDrk2D0/Gitanjali-Hindi.jpg"    , 
+    "author": "Rabindranath Tagore",
+    "publisher": "Maple Press"
+},
+{
+    "id": 32,
+    "Book_Name": "Salaam Bastar (hindi)",
+    "category": "Fiction & Non Fiction Books",
+    "category_id": 6,
+    "Price": 510,
+    "Image":"https://i.ibb.co/k397twc/Salaam-Bastar-hindi.jpg"     , 
+    "author": "Rahul Pandita",
+    "publisher": "Eka"
+},
+{
+    "id": 33,
+    "Book_Name": "Himachal Birds - A Visual Threat",
+    "category": "Fiction & Non Fiction Books",
+    "category_id": 6,
+    "Price": 850,
+    "Image":"https://i.ibb.co/pjvhCvs/Himachal-Birds-A-Visual-Threat.jpg"     , 
+    "author": "Somesh Goyal",
+    "publisher": "Himachal Birds Shimla"
+},
+{
+    "id": 34,
+    "Book_Name": "Devdaas",
+    "category": "Fiction & Non Fiction Books",
+    "category_id": 6,
+    "Price": 310,
+    "Image":"https://i.ibb.co/PMtZx3b/Devdaas.jpg"     , 
+    "author": "Saratchandra Chattopadhyay",
+    "publisher": "VANI PRAKSHAN"
+},
+{
+    "id": 36,
+    "Book_Name": "Anger in Children",
+    "category": "Fiction & Non Fiction Books",
+    "category_id": 6,
+    "Price": 265,
+    "Image":"https://i.ibb.co/LYgWVGj/Anger-in-Children.jpg"     , 
+    "author": "Dr. H. L. Kaila",
+    "publisher": "PRINTS PUBLICATIONS PVT LTD"
 }
+
+
+
+
  
  
  
