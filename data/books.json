@@ -1,61 +1,67 @@
 
 [    
     {
-        "id": 1,
+        "book_id": 1,
         "Book_Name": "India 2021",
         "category": "Exam Preparation Books",
         "category_id": 1,
-        "Price": 400,
+        "old_price":500,
+        "new_price": 400,
         "Image":"https://i.ibb.co/qFMgGWt/india-2021.jpg",
         "author": "EDITORIAL BOARD",
         "publisher":"PUBLICATIONS DIVISION"
     },
     {
-       "id": 2,
+       "book_id": 2,
         "Book_Name": "Latest Probable Essays",
         "category": "Exam Preparation Books",
         "category_id": 1,
-        "Price": 275,
+        "old_price":300,
+        "new_price": 275,
         "Image":"https://i.ibb.co/rM5vkVM/essay.jpg",
         "author": "R.S.Dhillon",
         "publisher":"APC BOOKS"
     },
     {
-        "id": 3,
+        "book_id": 3,
         "Book_Name": "Geography of India",
         "category": "Exam Preparation Books",
         "category_id": 1,
-        "Price": 250,
+        "old_price":300,
+        "new_price": 250,
         "Image":"https://i.ibb.co/tYxhxZ9/geography.jpg", 
         "author": "Majid Hussain",
         "publisher": "McGraw Hill Education"
     },
     {
-         "id": 4,
+         "book_id": 4,
         "Book_Name": "Quantitative Aptitude",
         "category": "Exam Preparation Books",
         "category_id": 1,
-        "Price": 220,
+        "old_price":250,
+        "new_price": 220,
         "Image":"https://i.ibb.co/yf83Hnp/quantitative-aptitude.jpg" , 
         "author": "Dr. R. S. Aggarwal",
         "publisher": "S. CHAND AND COMPANY LIMITED"
     },
      {
-         "id": 5,
+         "book_id": 5,
         "Book_Name": "Indian Polity",
         "category": "Exam Preparation Books",
         "category_id": 1,
-        "Price": 275,
+        "old_price":300,
+        "new_price": 275,
         "Image":"https://i.ibb.co/VW1C3dN/indianpolity.jpg"  , 
         "author": "M. LaXmikanth",
         "publisher": "McGraw Hill Education"
     },
     {
-         "id": 6,
+         "book_id": 6,
         "Book_Name": "General English 2022",
         "category": "Exam Preparation Books",
         "category_id": 1,
-        "Price": 265,
+        "old_price":290,
+        "new_price": 265,
         "Image":"https://i.ibb.co/YjNxVVG/english.jpg"  , 
         "author": "Educart",
         "publisher": "Agrawal Group Of Publications"
@@ -63,314 +69,412 @@
     
     
     {
-        "id": 7,
+        "book_id": 7,
        "Book_Name": "101 Panchtantra Stories",
        "category": "Children & Adult Books",
        "category_id": 2,
-       "Price": 450,
+       "old_price":600,
+       "new_price": 450,
        "Image":"https://i.ibb.co/LzXMKfd/panchtantra.jpg"  , 
        "author": "Wonder House Books",
        "publisher": "Wonder House Books"
    },
 
    {
-    "id": 8,
+    "book_id": 8,
    "Book_Name": "Thea Stilton and the Dancing Shadows",
    "category": "Children & Adult Books",
    "category_id": 2,
-   "Price": 275,
+   "old_price":300,
+   "new_price": 275,
    "Image":"https://i.ibb.co/Cv3DJnZ/stilton.jpg" , 
    "author": "Geronimo Stilton",
    "publisher": "Scholastic India Pvt. Ltd."
 }, 
 
 {
-    "id": 9,
+    "book_id": 9,
    "Book_Name": "Gopi Diaries : Finding Love",
    "category": "Children & Adult Books",
    "category_id": 2,
-   "Price": 450,
+   "old_price":500,
+   "new_price": 450,
    "Image":"https://i.ibb.co/jGbhtJ4/gopi-diaries.jpg" , 
    "author": "Sudha Murty",
    "publisher": "Harper Collins Childrens Books"
 }, 
 
 {
-    "id": 10,
+    "book_id": 10,
    "Book_Name": "Flowers - Jigsaw Puzzle",
    "category": "Children & Adult Books",
    "category_id": 2,
-   "Price": 220,
+   "old_price":250,
+   "new_price": 220,
    "Image":"https://i.ibb.co/WcRR9RH/Flowers.jpg" , 
    "author": "Advit Toys",
    "publisher": "Advit Toys"
 }, 
 
 {
-    "id": 11,
+    "book_id": 11,
    "Book_Name": "My First Library Pack 2",
    "category": "Children & Adult Books",
    "category_id": 2,
-   "Price": 590,
+   "old_price":700,
+   "new_price": 590,
    "Image":"https://i.ibb.co/CBr2FCR/library-pack-2.jpg" , 
    "author": " Wonder House Books",
    "publisher": " Wonder House Books"
 }, 
 
 {
-    "id": 12,
+    "book_id": 12,
    "Book_Name": "A Song of Ice and Fire",
    "category": "Children & Adult Books",
    "category_id": 2,
-   "Price": 530,
+   "old_price":600,
+   "new_price": 530,
    "Image":"https://i.ibb.co/xCFqH6s/A-song-of-Ice.jpg"   , 
    "author": " George R R Martin",
    "publisher": " Harpercollins Publisher, UK"
 },
 
 {
-    "id": 13,
+    "book_id": 13,
    "Book_Name": "It Ends With Us",
    "category": "Bestsellers Books",
    "category_id": 3,
-   "Price": 150,
+   "old_price":200,
+   "new_price": 150,
    "Image":"https://i.ibb.co/SRwFMVB/It-Ends-With-Us.jpg"   , 
    "author": "Colleen Hoover",
    "publisher": "Simon & Schuster India"
 },
 {
-    "id": 14,
+    "book_id": 14,
    "Book_Name": "The Power Of Your Subconscious Mind",
    "category": "Bestsellers Books",
    "category_id": 3,
-   "Price": 275,
+   "old_price":320,
+   "new_price": 275,
    "Image":"https://i.ibb.co/0BSWP6r/The-Power-of-your.jpg" , 
    "author": "Joseph Murphy",
    "publisher": "SRISHTI PUBLISHERS & DISTRIBUTORS"
 },
 {
-    "id": 15,
+    "book_id": 15,
    "Book_Name": "Gopi Diaries : Finding Love",
    "category": "Bestsellers Books",
    "category_id": 3,
-   "Price": 450,
+   "old_price":500,
+   "new_price": 450,
    "Image":"https://i.ibb.co/p1M5cLH/gopi-diaries.jpg" , 
    "author": "Sudha Murty",
    "publisher": "Harper Collins Childrens Booksy"
 },
 {
-    "id": 16,
+    "book_id": 16,
    "Book_Name": "Do Epic Shit",
    "category": "Bestsellers Books",
    "category_id": 3,
-   "Price": 200,
+   "old_price":250,
+   "new_price": 200,
    "Image":"https://i.ibb.co/bJgcSLW/Do-Epic-Shit.jpg" , 
    "author": "Ankur Warikoo",
    "publisher": "Juggernaut"
 },
 {
-    "id": 17,
+    "book_id": 17,
    "Book_Name": "12 Rules For Life",
    "category": "Bestsellers Books",
    "category_id": 3,
-   "Price": 360,
+   "old_price":400,
+   "new_price": 360,
    "Image":"https://i.ibb.co/gFBgPch/12-Rules-For-Life.jpg"  , 
    "author": "Jordan B. Peterson",
    "publisher": "Penguin Random House India Pvt. Ltd."
 },
 {
-    "id": 18,
+    "book_id": 18,
    "Book_Name": "12 Rules For Life",
    "category": "Bestsellers Books",
    "category_id": 3,
-   "Price": 265,
+   "old_price":290,
+   "new_price": 265,
    "Image":"https://i.ibb.co/Wf21TpK/Thinking-Fast-and-slow.jpg"   , 
    "author": "Jordan B. Peterson",
    "publisher": "Penguin Random House India Pvt. Ltd."
 },
 {
-    "id": 19,
+    "book_id": 19,
    "Book_Name": "The Book of Dog",
    "category": "New Releases Books",
    "category_id": 4,
-   "Price": 400,
+   "old_price":450,
+   "new_price": 400,
    "Image":"https://i.ibb.co/mFT2Ccw/The-Book-of-Dog.jpg"    , 
    "author": "Hemali Sodhi",
    "publisher": "HarperCollins India"
 },
 
 {
-    "id": 20,
+    "book_id": 20,
    "Book_Name": "The Punch Magazine",
    "category": "New Releases Books",
    "category_id": 4,
-   "Price": 300,
+   "old_price":350,
+   "new_price": 300,
    "Image":"https://i.ibb.co/MptzGPR/The-Punch-Magazine.jpg"     , 
    "author": "Shireen Quadri",
    "publisher": "Shireen Quadri"
 },
 {
-    "id": 21,
+    "book_id": 21,
    "Book_Name": "India That Is Bharat",
    "category": "New Releases Books",
    "category_id": 4,
-   "Price": 560,
+   "old_price":600,
+   "new_price": 560,
    "Image":"https://i.ibb.co/vhZgR5w/India-That-Is-Bharat.jpg"     , 
    "author": "J. Sai Deepak",
    "publisher": "Bloomsbury Publishing India Pvt. Ltd."
 },
  
 {
-    "id": 22,
+    "book_id": 22,
     "Book_Name": "Do Epic Shit",
     "category": "New Releases Books",
     "category_id": 4,
-    "Price": 200,
+    "old_price":250,
+    "new_price": 200,
     "Image":"https://i.ibb.co/bJgcSLW/Do-Epic-Shit.jpg" , 
     "author": "Ankur Warikoo",
     "publisher": "Juggernaut"
 },
 
 {
-    "id": 23,
+    "book_id": 23,
     "Book_Name": "Heroes Of 1971",
     "category": "New Releases Books",
     "category_id": 4,
-    "Price": 750,
+    "old_price":800,
+    "new_price": 750,
     "Image":"https://i.ibb.co/V29gKGx/Heroes-Of-1971.jpg"  , 
     "author": "Rajesh Ramachandran (ed.)",
     "publisher": "HarperCollins India"
 },
 
 {
-    "id": 24,
+    "book_id": 24,
     "Book_Name": "Ballot",
     "category": "New Releases Books",
     "category_id": 4,
-    "Price": 265,
+    "old_price":290,
+    "new_price": 265,
     "Image":"https://i.ibb.co/k6kxXzW/Ballot.jpg"  , 
     "author": "Rasheed Kidwai",
     "publisher": "Hachette India"
 },
 
 {
-    "id": 25,
+    "book_id": 25,
     "Book_Name": "National Geographic Leaders",
     "category": "School Books",
     "category_id": 5,
-    "Price": 490,
+    "old_price":550,
+    "new_price": 490,
     "Image":"https://i.ibb.co/8zd6VPZ/National-Geographic-Leaders.jpg"   , 
     "author": "Laura Marsh",
     "publisher": "Harpercollins Publisher, UK"
 },
 {
-    "id": 26,
+    "book_id": 26,
     "Book_Name": "National Geographic Leaders",
     "category": "School Books",
     "category_id": 5,
-    "Price": 300,
+    "old_price":350,
+    "new_price": 300,
     "Image":"https://i.ibb.co/41rGXxP/The-Punch-Magazine.jpg"   , 
     "author": "Shireen Quadri",
     "publisher": "Niyogi Books"
 },
 {
-    "id": 27,
+    "book_id": 27,
     "Book_Name": "Nootan Saral Hindi Mala",
     "category": "School Books",
     "category_id": 5,
-    "Price": 200,
+    "old_price":300,
+    "new_price": 200,
     "Image":"https://i.ibb.co/MkBYPjL/Nootan-Saral-Hindi-Mala.jpg"    , 
     "author": "Kavita Basu, A.K. Mishra, Sudhama Prasad",
     "publisher": "GOYAL BROTHERS PRAKASHAN"
 },
 {
-    "id": 28,
+    "book_id": 28,
     "Book_Name": "GK Planet 3",
     "category": "School Books",
     "category_id": 5,
-    "Price": 310,
+    "old_price":350,
+    "new_price": 310,
     "Image":"https://i.ibb.co/ZffWffT/GK-Planet-3.jpg"    , 
     "author": "Kavita Basu, A.K. Mishra, Sudhama Prasad",
     "publisher": "GOYAL BROTHERS PRAKASHAN"
 },
 {
-    "id": 29,
+    "book_id": 29,
     "Book_Name": "English Textbook Combo Pack",
     "category": "School Books",
     "category_id": 5,
-    "Price": 342,
+    "old_price":550,
+    "new_price": 342,
     "Image":"https://i.ibb.co/whRD1RJ/English-Textbook-Combo-Pack.jpg"   , 
     "author": "National Council Of Education Research and Training",
     "publisher": "National Council Of Education Research and Training"
 },
 {
-    "id": 30,
+    "book_id": 30,
     "Book_Name": "Active Teach",
     "category": "School Books",
     "category_id": 5,
-    "Price": 265,
+    "old_price":290,
+    "new_price": 265,
     "Image":"https://i.ibb.co/P51tkg5/Active-Teach.jpg"   , 
     "author": "Vipul Singh",
     "publisher": "PEARSON INDIA EDUCATION SERVICES PRIVATE LIMITED"
 },
 {
-    "id": 31,
+    "book_id": 31,
     "Book_Name": "Gitanjali- Hindi",
     "category": "Fiction & Non Fiction Books",
     "category_id": 6,
-    "Price": 520,
+    "old_price":690,
+    "new_price": 520,
     "Image":"https://i.ibb.co/RDrk2D0/Gitanjali-Hindi.jpg"    , 
     "author": "Rabindranath Tagore",
     "publisher": "Maple Press"
 },
 {
-    "id": 32,
+    "book_id": 32,
     "Book_Name": "Salaam Bastar (hindi)",
     "category": "Fiction & Non Fiction Books",
     "category_id": 6,
-    "Price": 510,
+    "old_price":550,
+    "new_price": 510,
     "Image":"https://i.ibb.co/k397twc/Salaam-Bastar-hindi.jpg"     , 
     "author": "Rahul Pandita",
     "publisher": "Eka"
 },
 {
-    "id": 33,
+    "book_id": 33,
     "Book_Name": "Himachal Birds - A Visual Threat",
     "category": "Fiction & Non Fiction Books",
     "category_id": 6,
-    "Price": 850,
+    "old_price":900,
+    "new_price": 850,
     "Image":"https://i.ibb.co/pjvhCvs/Himachal-Birds-A-Visual-Threat.jpg"     , 
     "author": "Somesh Goyal",
     "publisher": "Himachal Birds Shimla"
 },
 {
-    "id": 34,
+    "book_id": 34,
     "Book_Name": "Devdaas",
     "category": "Fiction & Non Fiction Books",
     "category_id": 6,
-    "Price": 310,
+    "old_price":350,
+    "new_price": 310,
     "Image":"https://i.ibb.co/PMtZx3b/Devdaas.jpg"     , 
     "author": "Saratchandra Chattopadhyay",
     "publisher": "VANI PRAKSHAN"
 },
 {
-    "id": 36,
+    "book_id": 35,
+    "Book_Name": "Indian Foreign Affairs",
+    "category": "Fiction & Non Fiction Books",
+    "category_id": 6,
+    "old_price":550,
+    "new_price": 510,
+    "Image":"https://i.ibb.co/zsDkVmd/Indian-Foreign-Affairs.jpg"    , 
+    "author": "Chintamani Mahapatra - Editor, R. Rajagopalan",
+    "publisher": "PRINTS PUBLICATIONS PVT LTD"
+},
+{
+    "book_id": 36,
     "Book_Name": "Anger in Children",
     "category": "Fiction & Non Fiction Books",
     "category_id": 6,
-    "Price": 265,
+    "old_price":390,
+    "new_price": 265,
     "Image":"https://i.ibb.co/LYgWVGj/Anger-in-Children.jpg"     , 
     "author": "Dr. H. L. Kaila",
     "publisher": "PRINTS PUBLICATIONS PVT LTD"
+},
+{
+    "book_id": 37,
+    "Book_Name": "WOLRD HISTORY",
+    "category": "Exam Preparation Books",
+    "category_id": 1,
+    "old_price":200,
+    "new_price": 180,
+    "Image":"https://i.ibb.co/C0Sg94c/world-history.jpg" ,
+    "author": "DHYEYA IAS",
+    "publisher":"TRUEWORD PUBLICATION"
+},
+{
+    "book_id": 38,
+    "Book_Name": "WBCS Executive 2022",
+    "category": "Exam Preparation Books",
+    "category_id": 1,
+    "old_price":475,
+    "new_price": 437,
+    "Image":"https://i.ibb.co/GTq9LdH/WBCS-Executive-2022.jpg"     , 
+    "author": "EDITORIAL BOARD",
+    "publisher": "KIRAN INSTITUTE OF CARRER EXCELLENCE PVT.LTD."
+},
+{
+    "book_id": 39,
+    "Book_Name": "Constitution of India",
+    "category": "Exam Preparation Books",
+    "category_id": 1,
+    "old_price":499,
+    "new_price": 449,
+    "Image":"https://i.ibb.co/X2gF55p/Constitution-of-India.jpg"      , 
+    "author": "M. LaXmikanth",
+    "publisher": "Cengage Learning"
+},
+{
+    "book_id": 40,
+    "Book_Name": "Mastering Essay & Answer Writing",
+    "category": "Exam Preparation Books",
+    "category_id": 1,
+    "old_price":450,
+    "new_price": 400,
+    "Image":"https://i.ibb.co/ZSdRW1B/Mastering-Essay-Answer-Writing.jpg"      , 
+    "author": "DISHA PUBLICATION",
+    "publisher": "DISHA PUBLICATION"
+},
+{
+    "book_id": 41,
+    "Book_Name": "Indian Economy",
+    "category": "Exam Preparation Books",
+    "category_id": 1,
+    "old_price":449,
+    "new_price": 265,
+    "Image":"https://i.ibb.co/0rkfdwS/Indian-Economy.jpg"       , 
+    "author": "Sankarganesh Karuppiah",
+    "publisher": "McGraw Hill Education"
+},
+{
+    "book_id": 42,
+    "Book_Name": "CSR Yearbook 2022",
+    "category": "Exam Preparation Books",
+    "category_id": 1,
+    "old_price":395,
+    "new_price": 355,
+    "Image":"https://i.ibb.co/HVJDQWv/CSR-Yearbook-2022.jpg"        , 
+    "author": "S.K. Sachdeva",
+    "publisher": "Sudha Publications Pvt Ltd"
 }
-
-
-
-
- 
- 
- 
- 
-
-
 ]
+
+

@@ -1,58 +1,137 @@
+
 [    
     {
-        "id": 1,
+        "book_id": 1,
         "Book_Name": "India 2021",
         "category_id": 1,
         "author": "EDITORIAL BOARD",
         "About_Book":"India 2021 - A Reference Annual is a comprehensive digest of country progress in differnet feilds. The book deals with all aspects of development from rural to urban, industry to infrastructure, science and technology to art and culture. economy, health, defence to education and mass communciation. ",
         "About_Author":"EDITORIAL BOARD",
-        "Reviews":"No Review Found"   
+        "Reviews":"No Review Found",
+        "product_specification":[
+            {
+                "Publisher":"PUBLICATIONS DIVISION",
+                "Publication_Year":	2021,
+                "ISBN_13":	9789354091087,
+                "ISBN_10":	9354091083,
+                "Binding":	"Paperback",
+                "No_of_pages":	799 ,
+                "Language":	"English",
+                "Weight": 	900
+
+            }
+        ]  
     },
     {
-        "id": 2,
+        "book_id": 2,
         "Book_Name": "Latest Probable Essays",
         "category_id": 1,
         "author": "R.S.Dhillon",
         "About_Book":"Some Novel Features: Judicious selection of topics Coverage of a wide variety of topics Synopsis i.e. gidt of the entire essay given in a few lines Logical development of the theme A plethora of facts and figures to add power and punch to essays Objective and unbiased presentation Aid to Vocabulary-meanings given of all difficult words so that the reader has not to repeatedly refer to the dictionary or go to the Google. Points to Remember-should prove very handy for rapid revision. Guided Composition: An obsolutely new section has been incorporated. It has 20 topics. The gist of the topic has been provided in approximately 150 words. They have to be developed into full-fledged essays in 800-1000 words. It should be a great learning experience. Latest Material on G.K. and Current Topics-This section is aimed at helping the reader refresh his knowledge of basic facts and inform him of the latest development in all fields, to facilitate him to make use of the same in writing of Essays and to enable him to write essays an hundreds of additional topics. Quotable Quotes-These quotations, if used judiciously, add lustre, charm and credibility to Essays.",
         "About_Author":"R.S.Dhillon",
-        "Reviews":"No Review Found"   
+        "Reviews":"No Review Found" ,
+        "product_specification":[
+            {
+                "Publisher":"APC BOOKS",
+                "Publication_Year":	2021,
+                "ISBN_13":	9788182967229,
+                "ISBN_10":	8182967228,
+                "Binding":	"Paperback",
+                "No_of_pages":	792,
+                "Language":	"English",
+                "Weight": 	700
+
+            }
+        ]    
     },
    
     {
-        "id": 3,
+        "book_id": 3,
         "Book_Name": "Geography of india",
         "category_id": 1,
         "author": "Majid Husain",
         "About_Book":"Ever since its release in 1989, Quantitative Aptitude has come to acquire a special place of respect and acceptance among students and aspirants appearing for a wide gamut of competitive exams. Now, more than a quarter of a century later, with the ever changing environment of examinations, the book too reinvents itself while being resolute to its core concept of providing the best content with easily understandable solutions.Key Feature:• Comprehensive: The book is more comprehensive than ever before with more than 5500 questions (supported with answers and solutions—a hallmark of Quantitative Aptitude).• Easy to follow: Chapters begin with easy-to-grasp theory complemented by formulas and solved examples. They are followed by a wide-ranging number of questions for practice.• Latest & Updated: With questions (memory based) from examinations up till year 2016, the book captures the latest examination patterns as well as questions for practice.",
         "About_Author":"Late Prof. Majid Husain will always be remembered asan iconic academician of India. Prof. Majid Husain completed his early education from Nehru Inter College Manglaur. He had obtained his M.A. (Gold Medalist), LL.B. and Phd. from the Aligarh Muslim University, Aligarh, and pursued his higher education in Swansea (Wales) and School of Oriental and African Studies, London. Prof. Husain had retired in 2003 as Professor and Head, Department of Geography, Jamia Millia Islamia, New Delhi. Having an excellent capability to simplify the difficult concepts in Geography in lucid and cogent style, he had authored and edited over 4 dozen of books. He was an Indian Geographer of International fame, and was well known for his immense contribution to Geography through numerous publications, research works and teaching in many universities. His unique teaching style helped students to assimilate even the most convoluted topics. He taught complete module of Geography for optional, Geography for Prelims, Environment and Ecology and mentored his students for personality test as well.",
-        "Reviews":"No Review Found"   
+        "Reviews":"No Review Found",
+        "product_specification":[
+            {
+                "Publisher":"McGraw Hill Education",
+                "Publication_Year":	2020,
+                "ISBN_13":	9789390185719,
+                "ISBN_10":	9390185718,
+                "Binding":	"Paperback",
+                "No_of_pages":	920,
+                "Language":	"English",
+                "Weight": 	1310
+
+            }
+        ]    
     },
     {
-        "id": 4,
-        "Book_Name": "Quantitative Aptitude",
+        "book_id": 4,
+        "Book_Name": "S. CHAND AND COMPANY LIMITED",
         "category_id": 1,
         "author": "Dr. R. S. Aggarwal",
         "About_Book":"Ever since its release in 1989, Quantitative Aptitude has come to acquire a special place of respect and acceptance among students and aspirants appearing for a wide gamut of competitive exams. Now, more than a quarter of a century later, with the ever changing environment of examinations, the book too reinvents itself while being resolute to its core concept of providing the best content with easily understandable solutions.Key Feature:• Comprehensive: The book is more comprehensive than ever before with more than 5500 questions (supported with answers and solutions—a hallmark of Quantitative Aptitude).• Easy to follow: Chapters begin with easy-to-grasp theory complemented by formulas and solved examples. They are followed by a wide-ranging number of questions for practice.• Latest & Updated: With questions (memory based) from examinations up till year 2016, the book captures the latest examination patterns as well as questions for practice.",
         "About_Author":"Dr. R.S. Aggarwal was born on January 2, 1946 in a village of Delhi. He graduated from Kirori Mal College, University of Delhi. After completing his M.Sc. in Mathematics in 1969, he joined N.A.S. College, Meerut as a lecturer. In 1976, he was awarded a fellowship for 3 years and joined University of Delhi for his Ph. D. Thereafter he was promoted as a reader in N.A.S. College, Meerut. In 1999, he joined M.M.H. College, Ghaziabad, as a reader and took voluntary retirement in 2003. He has written more than 75 books ranging from Nursery to M. Sc. and in the competitions segment from clerical grade to I.A.S. level.",
-        "Reviews":"No Review Found"   
+        "Reviews":"No Review Found",
+        "product_specification":[
+            {
+                "Publisher":"S. CHAND AND COMPANY LIMITED",
+                "Publication_Year":	2017,
+                "ISBN_13":	9789352534029,
+                "ISBN_10":	9352534026,
+                "Binding":	"Paperback",
+                "No_of_pages":	960,
+                "Language":	"English",
+                "Weight": 	1560
+
+            }
+        ]      
     },
     {
-        "id": 5,
+        "book_id": 5,
         "Book_Name": "Indian Polity",
         "category_id": 1,
         "author": "M. LaXmikanth",
         "About_Book":"The book itself needs no introduction. It is one of the most famous and comprehensive books on the subject and has been a consistent bestseller for many years. It is a one-stop reference for the Civil Services aspirants, students of law, political Science and public Administration. The book is a must-read for the aspirants appearing for the Civil Services examinations as well as the other State Services examinations. It is conceived to cater to the requirements of not just students appearing for competitive examinations but also postgraduates, research scholars, academics and general readers who are interested in the country’s political, civil and constitutional issues. An effort has been made to make the contents of the book relevant, authentic and up-to-date. Salient Features: ✔ 80 chapters and 16 appendices covering the entire Indian political and constitutional spectrum ✔ Chapters rearranged as per the latest pattern of the examination ✔ Coverage on the recent developments in Jammu & Kashmir and Ladakh, constitutional interpretation, judicial review and judicial activism ✔ Updated previous years’ questions and revised practice questions for both Preliminary and Mains Examinations ✔ 6 New chapters have been included in the latest edition",
         "About_Author":"M. LaXmikanth",
-        "Reviews":"No Review Found"   
+        "Reviews":"No Review Found",
+        "product_specification":[
+            {
+                "Publisher":"McGraw Hill Education",
+                "Publication_Year":	2019,
+                "ISBN_13":	9789389538472,
+                "ISBN_10":	9389538475,
+                "Binding":	"Paperback",
+                "No_of_pages":	940,
+                "Language":	"English",
+                "Weight": 	1100
+
+            }
+        ]    
     },
     {
-        "id": 6,
+        "book_id": 6,
         "Book_Name": "General English 2022",
         "category_id": 1,
         "author": " Educart",
         "About_Book":"→ Title - Complete General English 2019 Book For All Government Exams (Bilingual) → Book Type - Textbook (Subject Specific) → Subjects Covered - English → Job Location - Any State → Exam Category and Exam Board - Contemporary Books Exams, Board → Book Cost, Pages, Weight - ₹399, 564 pages, 885g KEY FEATURES OF THE BOOK 1. English Rato nahi sikho. English explained in hindi-english text. 2. Covers all english grammar rules. 3. Chapter-wise theory, questions and solutions",
         "About_Author":"Educart",
-        "Reviews":"No Review Found"   
+        "Reviews":"No Review Found",
+        "product_specification":[
+            {
+                "Publisher":"McGraw Hill Education",
+                "Publication_Year":	2019,
+                "ISBN_13":	9789388366755,
+                "ISBN_10":	9388366751,
+                "Binding":	"Paperback",
+                "No_of_pages":	564,
+                "Language":	"English",
+                "Weight": 	700
+
+            }
+        ]    
     }
     
 ]

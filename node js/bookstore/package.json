@@ -4,7 +4,8 @@
   "description": "this is bookstore",
   "main": "index.js",
   "scripts": {
-    "test": "node"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "suresh",
   "license": "ISC",
