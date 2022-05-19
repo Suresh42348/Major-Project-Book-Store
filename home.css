@@ -227,31 +227,11 @@ html,body {
 
 }
 /* containers for books */
-#first{
+.first{
     height:440px;
     /* background-color:skyblue; */
 }
-#second{
-    height:440px;
-    /* background-color:rgb(217, 240, 136); */
-    
-}
-#third{
-    height:440px;
-    /* background-color:rgb(238, 179, 155); */
-}
-#fourth{
-    height:440px;
-    /* background-color:rgb(240, 159, 236); */
-}
-#fifth{
-    height:440px;
-    /* background-color:rgb(94, 134, 221); */
-}
-#sixth{
-    height:440px;
-    /* background-color:rgb(209, 198, 102); */
-}
+
 .card{
     display:inline-flexbox;
     width:105%;
