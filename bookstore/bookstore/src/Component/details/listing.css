@@ -3,23 +3,95 @@ html,body {
     padding:0;
     overflow-x:hidden;
 }
+/* light dark mode */
+.mydark{
+    background-color:black;
+    color:white ;
+ }
+ .mystyle{
+    background-color:black;
+    color:white ;
+ }
+
 /*social Links*/
 
 .social{
-    height:50px;
+    height:40px;
     width:100%;
     display:inline-block;
-    background-color:lightgray;
+    background-color:#222222;
 }
-.icon{
-    height:50px;
-    width:50px;
-    margin-right:1%;
+.weather{
+    float:left;
+    color:white;
+}
+#city{
+    
+    font-weight: bold;
+    color:white;
+}
+#weather{
+    font-weight: bold;
+}
+#btn{
+    margin-top:2px;
+    padding:0;
+    border:0px #222222 ;
+    
+}
+#lightmode{
+    height:35px;
+    width:100%;
+    border-radius:10px;
+}
+.lightdark{
+    height:35px;
     float:right;
+    background-color: #222222;
+    margin-right:4%;
 
 }
-.icon  img{
+.icon{
+    height:40px;
+    width:40px;
+    margin-right:1%;
+    float:right;
+    border-radius: 50%;
+    background-color:lightgrey;
+}
+.weathericon{
+    height:40px;
+    width:40px;
+    margin-right:1%;
+    float:left;
+    border-radius: 50%;
+   
+
+}
+.icon img{
     width:100%;
+}
+.weathericon img{
+    width:100%;
+}
+/* coupon */
+#coupon{
+    height:300px;
+    width:600px;
+    z-index:100;
+    background-repeat: no-repeat;
+    background-size:100% 300px;
+    visibility: hidden;
+    margin-top:10%;
+    background-image:url("https://i.ibb.co/x6PrYkC/coupon.webp");
+    margin-left: 33%;
+    position: absolute;
+    box-shadow: 5px 5px 5px lightgrey;
+    border:2px solid lightgray;
+}
+
+#cut{
+    background-color: red;
 }
 /*header started*/
 #head{
@@ -52,13 +124,6 @@ html,body {
     margin-left:9%;
     margin-top:1%;
     border-radius:15PX;
-}
-#sorting label{
-    float:right;
-    font-size: x-large;
-    font-weight: 100;
-     line-height: 2;
-
 }
 #searchbar{
     float:left;
@@ -105,10 +170,8 @@ html,body {
 
 /*Munu bar started*/
 
-.menubar{
-    width:100%;
-    display:inline-block;
-    color:white;
+.navbar{
+    margin-top:5%
 }
 
 .navbar-nav {
@@ -121,18 +184,21 @@ html,body {
     
   }
 
-/* sorting */
+/*Main picture division*/
+.picture{
+    width:100%;   
+}
+.picture .container{
+    width:100%;
+}
 
-#sorting{
-    height:40px;
+.item  img{
+    width:100%;
+    background-repeat: no-repeat;
+    
 }
-select{
-    height:45px;
-    width:30%;
-    border-radius: 10px;
-    float:right;
-    font-size:20px;
-}
+
+
 /*booklist*/
 
 .header{
@@ -147,13 +213,6 @@ select{
       font-family: 'Times New Roman', Times, serif;
       font-weight: bolder;
       font-size:60px;
-      
-}
-u{
-    text-decoration-color: red;
-    text-decoration-line: underline;
-    
-    
 }
 .row{
     margin-left:6%;
@@ -167,39 +226,19 @@ u{
 
 }
 /* containers for books */
-#first{
+.first{
     height:440px;
     /* background-color:skyblue; */
 }
-#second{
-    height:440px;
-    /* background-color:rgb(217, 240, 136); */
-    
-}
-#third{
-    height:440px;
-    /* background-color:rgb(238, 179, 155); */
-}
-#fourth{
-    height:440px;
-    /* background-color:rgb(240, 159, 236); */
-}
-#fifth{
-    height:440px;
-    /* background-color:rgb(94, 134, 221); */
-}
-#sixth{
-    height:440px;
-    /* background-color:rgb(209, 198, 102); */
-}
+
 .card{
     display:inline-flexbox;
-    width:100%;
+    width:105%;
     text-align:center;
     border-radius: 15px;
     box-shadow: 5px 5px 10px lightgray;
     transition: transform .2s;
-    border:ipx groove lightgray;
+    border:2px groove lightgray;
     }
 .card:hover {
     -ms-transform: scale(1.05); 
@@ -228,21 +267,56 @@ u{
     color:black;
 
 }
+.viewmore{
+    margin-top:4%;
+    height:50px;
+    margin-left:44%; 
+    margin-right:40%; 
+    width:10%;
+    text-align:center;
+    border-radius: 15px;
+    border:3px solid orange;
+    display:inline-block;
+}
+
+.viewmore > a{
+    display:block;
+    line-height: 2.5;
+    font-size:20px;
+    text-decoration:none;
+    color:grey;
+    font-weight:600;
+}
+
+/*banners*/
+.banner{
+    margin-top:4%;
+    height:300px;
+    width:100%;
+    display:inline-block;
+}
 
 
-
+.banner > img {
+    height:100%;
+    width:100%;
+}
 .footer{
     margin-top:4%;
     height:auto;
     width:100%;
     display:inline-block;
-    background-color: lightgray;
+    background-color: #222222;
+    color:white;
 }
 .footer > h2{
     text-align:center;
 }
 
 /* media Queries */
+
+
+
 @media only screen 
    and (max-width : 1464px) {
    
@@ -262,6 +336,13 @@ u{
     }
 
    }
+   @media only screen 
+   and (max-width : 1451px) {
+       .navbar{
+           margin-top:8%;
+       }
+   }
+   
 
    @media only screen 
    and (max-width : 1371px) {
@@ -293,7 +374,12 @@ u{
    }
 }
 
-
+@media only screen 
+   and (max-width : 1060px) {
+       .banner img{
+           height:80%;
+       }
+   }
    @media only screen 
    and (max-width : 930px) {
        .search{
@@ -305,7 +391,16 @@ u{
         width: 15%;
         margin-left: 8%;
     }
+    .navbar{
+        margin-top:10%;
+    }
 }
+@media only screen 
+    and (max-width : 730px) {
+        .navbar{
+            margin-top:12%
+        }
+    }
 
     @media only screen 
     and (max-width : 842px) {
@@ -323,15 +418,7 @@ u{
      }
    @media only screen 
    and (max-width : 765px) {
-    select{
-        height:35px;
-    }
-    #sorting label{
-        font-size:20px;
-        line-height:2;
-    }
     .bookwindow {
-
         margin-top: 12%;
     }
     .row {
@@ -345,7 +432,10 @@ u{
 
 @media only screen 
    and (max-width : 693px) {
-      
+       .viewmore{
+           width:30%;
+           margin-left:35%;
+       }
     
     .header > h1 {
         font-size: 43px;
@@ -362,7 +452,12 @@ u{
     width: 80%;
     
     }
+   
+    .viewmore > a {
+        display:block;
+        font-size: 18px;
 }
+   }
 @media only screen 
 and (max-width : 671px) {
  #searchbar {
@@ -381,22 +476,51 @@ and (max-width : 671px) {
  margin-left: 3%;
  }
 }
+@media only screen 
+and (max-width : 643px) {
+    .viewmore > a {
+        line-height:3;
+        font-size: 15px;
+}
+}
+@media only screen 
+and (max-width : 619px) {
+    .navbar{
+        margin-top:15%
+    }
+}
+
+@media only screen 
+and (max-width : 569px) {
+    .viewmore > a {
+        line-height:4;
+        font-size: 12px;
+}
+}
 
 @media only screen 
    and (max-width : 514px) {
-    select{
-        height:30px;
-    }
-    #sorting label{
-        line-height:1.5;
-    }
     .social {
         height: 30px;
     }
     .icon {
         height: 30px;
         width: 30px;
+
     }
+    .weathericon {
+        height: 30px;
+        width: 30px;   
+    }
+    #city{
+        font-size: 10px;
+   
+    }
+    #weather{
+        font-size: 10px;
+        
+    }
+
     .bookwindow {
         margin-top: 15%;
     }
@@ -406,7 +530,22 @@ and (max-width : 671px) {
     .row {
         width:auto;
         margin-left: -12px;
-        margin-right: -9px;
+        margin-right: 0;
+}
+#btn{
+    margin-top:2px;
+}
+
+#lightmode{
+    height:25px;
+    width:100%;
+    border-radius:10px;
+}
+.lightdark{
+    height:25px;
+    float:right;
+    margin-right:2%;
+
 }
    
 }
@@ -441,7 +580,10 @@ and (max-width : 671px) {
        #searchbar input[placeholder]{
         font-size:12px;
     }
-      
+       .banner img{
+        height:60%;
+        width:100%
+    }
     .footer > h2 {
         text-align: center;
         font-size: 17px;
@@ -459,11 +601,18 @@ and (max-width : 671px) {
     .header > h1 {
         font-size: 20px;
        }
-      
+       .viewmore{
+           width:40%;
+           margin-left:30%;
+           font-size:20px;
+       }
        #searchbar input[placeholder]{
         font-size:12px;
     }
-     
+       .banner img{
+        height:50%;
+        width:100%
+    }
     .footer > h2 {
         text-align: center;
         font-size: 16px;
@@ -481,6 +630,7 @@ and (max-width : 671px) {
     .header > h1 {
         font-size: 20px;
        }
+    
     .search {
         margin-top: 4%;
         
@@ -491,11 +641,15 @@ and (max-width : 671px) {
     .login {
         margin-top: 4%;
     }
-     
     .row {
         width: auto;
         margin-left: -24px;
         margin-right: -15px;
+       }
+       .viewmore{
+           width:40%;
+           margin-left:30%;
+           font-size:15px;
        }
        .header > h1 {
         font-size: 24px;
@@ -506,9 +660,18 @@ and (max-width : 671px) {
     .details{
         font-size:15px;
     }
+   
        
        
-     
+       .banner img{
+        height:50%;
+        width:100%;
+    }
+    #banner1{
+        width:100%
+    }
+   
+    
     .footer > h2 {
         text-align: center;
         font-size: 16px;
@@ -517,27 +680,34 @@ and (max-width : 671px) {
 
    @media only screen 
    and (max-width : 280px) {
-          .social {
-        height: 30px;
+    .social {
+        height: 28px;
     }
-    .icon {
-        height: 30px;
-        width: 30px;
-    }
+  
       
        .header > h1 {
         font-size: 20px;
        }
+       .lightdark{
+        height:20px;
+        float:right;
+        margin-right:-24%;
+        
+    
+    }
+    #lightmode{
+        height:20px;
+        border-radius: 5px;
+
+    }
+
 
        /* .row {
         width: auto;
-        margin-left: -27px;
-        margin-right: -17px;
+        margin-left: -24px;
+        margin-right: -15px;
        } */
-       .card{
-        width:110%;
-
-    }
+      
        .productimage {
         height: 193px;
     }
@@ -548,7 +718,12 @@ and (max-width : 671px) {
         height: 115 px;
         font-size:13px;
     }
-   
+    .viewmore{
+        width:50%;
+        margin-left:25%;
+        font-size:15px;
+        margin-top: -25%;
+    }
     .footer > h2 {
         text-align: center;
         font-size: 15px;
@@ -577,16 +752,15 @@ and (max-width : 671px) {
         width: 15%;
         margin-left: 5%;
     }
-    .social {
-        height: 36px; 
-   }
+ 
    .icon {
-    height: 36px;
-    width:36px; 
+    height: 20px;
+    width:20px; 
+    margin-top:4px
 }
 .icon img {
-    height: 36px;
-    width:36px;
+    height: 20px;
+    width:20px;
     margin-right: -1%; 
 }
 .mebubar{
@@ -601,6 +775,12 @@ and (max-width : 671px) {
 }
 .login {
     margin-top: 4%;
+}
+#btn{
+    margin-top:4px;
+    width:50%;
+    height:20px;
+    
 }
    }
 

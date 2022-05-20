@@ -280,6 +280,7 @@ html,body {
 }
 
 .viewmore > a{
+    display:block;
     line-height: 2.5;
     font-size:20px;
     text-decoration:none;
@@ -451,7 +452,12 @@ html,body {
     width: 80%;
     
     }
+   
+    .viewmore > a {
+        display:block;
+        font-size: 18px;
 }
+   }
 @media only screen 
 and (max-width : 671px) {
  #searchbar {
@@ -471,12 +477,26 @@ and (max-width : 671px) {
  }
 }
 @media only screen 
+and (max-width : 643px) {
+    .viewmore > a {
+        line-height:3;
+        font-size: 15px;
+}
+}
+@media only screen 
 and (max-width : 619px) {
     .navbar{
         margin-top:15%
     }
 }
 
+@media only screen 
+and (max-width : 569px) {
+    .viewmore > a {
+        line-height:4;
+        font-size: 12px;
+}
+}
 
 @media only screen 
    and (max-width : 514px) {
@@ -556,11 +576,7 @@ and (max-width : 619px) {
     .header > h1 {
         font-size: 30px;
        }
-       .viewmore{
-           width:40%;
-           margin-left:30%;
-           font-size:20px;
-       }
+      
        #searchbar input[placeholder]{
         font-size:12px;
     }

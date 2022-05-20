@@ -173,7 +173,9 @@ html,body {
     width:100%;
     display:inline-block;
     color:white;
+    height:50px;
 }
+
 
 .navbar-nav {
     
@@ -184,6 +186,10 @@ html,body {
     color:white;
     
   }
+  .first{
+      float:left;
+  }
+  
 
 /*Main picture division*/
 .picture{
