@@ -31,7 +31,7 @@ class First extends React.Component {
                    
                 }); 
             }) 
-            // let categoryid=sessionStorage.setItem('categoryid', 1); 
+           
          
     } 
    

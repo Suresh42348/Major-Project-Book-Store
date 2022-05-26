@@ -37,6 +37,7 @@ html,body {
     margin-top:2px;
     padding:0;
     border:0px #222222 ;
+    border-radius: 10px;
     
 }
 #lightmode{
@@ -49,6 +50,7 @@ html,body {
     float:right;
     background-color: #222222;
     margin-right:4%;
+    border-radius: 10px;
 
 }
 .icon{
