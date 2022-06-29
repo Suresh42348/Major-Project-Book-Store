@@ -47,6 +47,9 @@ app.get('/books',(req,res) => {
     })
 })
 
+
+
+
 //book details
 app.get('/details',(req,res) => {
     let categoryid = Number(req.query.categoryid)
@@ -70,17 +73,77 @@ app.post('/placeOrder',(req,res) => {
         res.send('Order Placed')
     })
 })
+// place Order
+app.post('/maincart',(req,res) => {
+    db.collection('maincart').insertOne(req.body,(err,result) => {
+        if(err) throw err;
+        res.send('Order Placed')
+    })
+})
+//viewmaincart
+app.get('/viewmaincart',(req,res) => {
+    let email = req.query.email;
+    let query = {};
+    if(email){
+        query = {email:email}
+    }
+    db.collection('maincart').find(query).toArray((err,result) => {
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
+//add to cart
+app.post('/cart',(req,res) => {
+    db.collection('cart').insertOne(req.body,(err,result) => {
+        if(err) throw err;
+        res.send('Added to Cart')
+    })
+})
+//view cart
+
+app.get('/viewcart',(req,res) => {
+    let email = req.query.email;
+    let query = {};
+    if(email){
+        query = {email:email}
+    }
+    db.collection('cart').find(query).toArray((err,result) => {
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
 
 // View Order
 app.get('/viewOrder',(req,res) => {
     let email = req.query.email;
     let query = {};
     if(email){
-        query = {"email":email}
+        query = {email:email}
     }
     db.collection('orders').find(query).toArray((err,result) => {
         if(err) throw err;
         res.send(result)
+    })
+})
+//order details
+app.get('/orderdetails',(req,res) => {
+    let id = Number(req.query.id);
+    let query = {};
+    if(id){
+        query = {"id":id}
+    }
+    db.collection('orders').find(query).toArray((err,result) => {
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
+//remove items from cart
+app.delete('/removefromcart',(req,res)=>{
+    db.collection('cart').remove({},(err,result) => {
+        res.send('Item deleted')
     })
 })
 
@@ -90,6 +153,7 @@ app.delete('/deleteOrders',(req,res)=>{
         res.send('order deleted')
     })
 })
+
 
 
 //update orders

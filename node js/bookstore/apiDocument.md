@@ -25,7 +25,7 @@ sorting(letter: a-z)=>
 
 
 //page3
-Place Order (post)=> localhost:9700/placeOrder (body) > { "name":"suresh", "email":"suresh@gmail.com", "address":"Hno 23,Sector 1", "phone":945645656, "cost":600, "bookid":[4,6,7], "status":"Pending" }
+Place Order (post)=> localhost:9800/placeOrder (body) > { "name":"suresh", "email":"suresh@gmail.com", "address":"Hno 23,Sector 1", "phone":945645656, "cost":600, "bookid":[4,6,7], "status":"Pending" }
 
 
 

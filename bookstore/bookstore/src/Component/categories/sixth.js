@@ -20,7 +20,8 @@ class Sixth extends React.Component {
     // execute the code  
     componentDidMount() { 
         fetch( 
-"https://bookstore42348.herokuapp.com/books?categoryid=6") 
+// "http://localhost:9800/books?categoryid=6"
+"https://frozen-meadow-35944.herokuapp.com/books?categoryid=6") 
             .then((res) => res.json()) 
             .then((json) => { 
                
@@ -51,9 +52,9 @@ class Sixth extends React.Component {
         { 
                 items.map((item,index) => ( 
                     index < 6 && 
-                    <Link to= {`/listing/${this.state.category_id}`}> 
+                    <Link to={`/Bookdetails/${item.book_id}`}> 
                     
-                        <div className="first col-lg-2 col-md-4 col-sm-4 col-xs-6" > 
+                        <div key={item.book_id} className="first col-lg-2 col-md-4 col-sm-4 col-xs-6" > 
                             <div className="card"> 
                                 <div className="productimage"> 
                                  <img src={item.Image} alt="indian 2021"/>   

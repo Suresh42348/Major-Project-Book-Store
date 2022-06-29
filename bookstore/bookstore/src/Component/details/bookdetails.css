@@ -1,0 +1,103 @@
+.box{
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    
+    /* border:2px solid red */
+
+}
+.main1{
+    height:440px;
+    width:49%;
+    /* border: 2px solid black; */
+    float: left;
+    margin-right:2%;
+
+}
+.main1>img{
+    
+    margin-left:20%;
+    border-radius: 5px;
+    width:300px;
+    height:400px;
+    transition: transform .2s;
+}
+img:hover {
+    -ms-transform: scale(1.05); 
+    -webkit-transform: scale(1.05); 
+    transform: scale(1.05);
+} 
+.detail{
+    height:440px;
+    float:left;
+    width:49%;
+    /* border:2px solid green */
+}
+.newprice{
+    margin-top:5%;
+    color:rgb(255, 85, 0);
+    font-weight:bolder;
+    font-size: 30px;
+    
+
+
+}
+.oldprice{
+    margin-top:5%;
+    color:darkgrey;
+    font-weight:bolder;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-left:2%;
+   
+    
+
+}
+.discount{
+    
+    background-color:orange ;
+    font-size: 20px;
+    margin-left:2%; 
+    height:30px;
+    width:100px;
+    display:inline-block;
+    text-align: center;
+    color:white;
+    margin-top:5%;
+    
+
+
+}
+.second{
+    /* border:2px solid pink; */
+    display:inline-block;
+    margin-top:5%;
+    width:100%;
+    height:fit-content
+    
+}
+.btn1{
+    margin-top:5%;
+    background-color: red;
+    height:45px;
+    width:150px;
+    margin-left:1%;
+    color:white;
+    font-size:20px;
+    text-align:center
+}
+.btn2{
+    margin-top:5%;
+    background-color: green;
+    height:45px;
+    width:150px;
+    margin-left:1%;
+    color:white;
+    font-size:20px;
+    text-align:center
+}
+.bookname{
+    text-align: left;
+    text-decoration: none
+}
+

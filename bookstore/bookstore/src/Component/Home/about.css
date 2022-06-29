@@ -1,0 +1,17 @@
+#main{
+    width:60%;
+    margin-left: 20%;
+    height:fit-content;
+    margin-top:5%;
+    box-shadow:1px 1px 1px 2px lightgrey;
+}
+h1{
+    text-align:center;
+    text-decoration: underline 5px solid rgb(255, 85, 0) ;
+}
+h2{
+    font-size: large;
+    text-align: center;
+    font-size:25px
+
+}

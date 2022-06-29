@@ -1,0 +1,86 @@
+.container1{
+    margin-top:10%
+}
+.second{
+    margin-top:10%
+}
+
+
+table{
+    width:100%;
+    box-shadow:1px 1px 1px 2px lightgrey;
+    font-size: 20px;
+}
+td{
+    border:2px solid lightgray;
+    text-align: center;    
+}
+tr{
+    border:2px solid lightgray;
+    height:30px;
+
+}
+.detailbtn1{
+    background-color: green;
+    height:45px;
+    width:305px;
+    margin-left:1%;
+    color:white;
+    font-size:25px;
+    font-weight: 600;
+   
+}
+.detailbtn2{
+    background-color: brown;
+    height:45px;
+    width:305px;
+    margin-left:1%;
+    color:white;
+    font-size:25px;
+    font-weight: 600;
+   
+}
+.detailbtn3{
+    background-color: blue;
+    height:45px;
+    width:305px;
+    margin-left:1%;
+    color:white;
+    font-size:25px;
+    font-weight: 600;
+    
+}
+.div12{
+    margin-top:10px;
+    font-size:25px;
+    margin-left:7%;
+    margin-right:6%;
+    width:82%;
+    border:2px solid gray;
+    height:fit-content;
+    border-radius: 5px;
+    box-shadow:1px 1px 1px 2px lightgrey;
+}
+.div23{
+    margin-top:20px;
+    font-size:30px;
+    margin-left:7%;
+    margin-right:6%;
+    width:82%;
+   
+    height:300px;
+    border-radius: 5px;
+    
+}
+.heading{
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+h1{
+    font-weight: 600;
+  
+}
+
+
+    
