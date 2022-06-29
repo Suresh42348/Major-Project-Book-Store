@@ -98,6 +98,7 @@ class Listing extends React.Component {
         ); 
     } 
     componentDidMount() { 
+        sessionStorage.setItem('page',0)
         console.log("listing page is coming")
         fetch( 
             url) 

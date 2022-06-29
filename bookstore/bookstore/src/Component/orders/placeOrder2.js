@@ -131,6 +131,7 @@ class PlaceOrder2 extends Component {
 
     //call api 
     componentDidMount(){
+        sessionStorage.setItem('page',0)
         let email =sessionStorage.getItem('userInfo').split(',')[1];
         fetch(`https://frozen-meadow-35944.herokuapp.com/viewcart?email=${email}`)
         .then(res=>res.json())

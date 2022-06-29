@@ -14,6 +14,7 @@ import Search from '../search/search';
 
 
 const Home = () => {
+    
     return(
         <>
        <Header/>

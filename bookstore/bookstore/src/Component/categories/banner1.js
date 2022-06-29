@@ -1,11 +1,12 @@
 import React from 'react';
 import './header.css';
+import banner1 from './images/ad-banner1.jpg'
 
 const Banner1 = (props) => {
     return (
         <React.Fragment>
                <div className="banner container">
-           <img src="https://i.ibb.co/9GGzQKj/ad-banner1.png" id="banner1"  className="img-responsive" alt="banner"/>
+           <img src={banner1} id="banner1"  className="img-responsive" alt="banner"/>
             </div>
       
         </React.Fragment>

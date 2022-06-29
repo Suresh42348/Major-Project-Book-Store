@@ -20,8 +20,8 @@ class First extends React.Component {
     // ComponentDidMount is used to 
     // execute the code  
     componentDidMount() { 
+        sessionStorage.setItem("page",0)
         fetch( 
-            // "http://localhost:9800/books?categoryid=1"
 "https://frozen-meadow-35944.herokuapp.com/books?categoryid=1"
 ) 
             .then((res) => res.json()) 

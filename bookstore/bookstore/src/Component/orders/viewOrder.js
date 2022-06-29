@@ -21,6 +21,7 @@ const recievedata=(data)=>{
 }
 
 useEffect(()=>{
+    sessionStorage.setItem('page',0)
     if(sessionStorage.getItem('loginStatus')=="false"){
         sessionStorage.setItem("accessorder","true")
         history.push(`/login`)

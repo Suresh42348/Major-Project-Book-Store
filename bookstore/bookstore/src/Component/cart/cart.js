@@ -32,6 +32,7 @@ const recievedata=(data)=>{
 
 }
  useEffect(()=>{
+    sessionStorage.setItem('page',0)
     console.log("useeffect running")
     let amount = [] 
     if(sessionStorage.getItem('loginStatus')=="false"){

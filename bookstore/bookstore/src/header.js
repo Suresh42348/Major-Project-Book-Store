@@ -1,8 +1,10 @@
 import React,{Component} from 'react';
 import './header.css';
 import {Link,withRouter} from 'react-router-dom';
+import createBrowserHistory from "history/createBrowserHistory"
 
 const url = "https://zlogin42348.herokuapp.com/api/auth/userinfo"
+
 
 
 
@@ -16,6 +18,9 @@ class Header extends Component {
             keyword:''
         }
     }
+     history = createBrowserHistory({
+        forceRefresh: true
+        })
 
     handleLogout = () => {
         sessionStorage.removeItem('ltk')
@@ -107,15 +112,18 @@ class Header extends Component {
             keyword:event.target.value
 
         })
-        this.props.pasdata(event.target.value)
         sessionStorage.setItem("keyword", event.target.value)
         console.log(event.target.value)
 
     }
-    // sendkeyword=(props)=>{
-    //     let a = this.state.keyword
-    //     this.props.pasdata("random data")
-    // }
+    searchcondition=()=>{
+         if(sessionStorage.getItem('page')==0){
+            this.history.push('/search')
+        }
+        else{
+            this.props.pasdata(Math.random())
+        }
+    }
      
     
    
@@ -164,7 +172,7 @@ class Header extends Component {
             <div className="search container">
                 <div id="searchbar">
                 <input type="text" placeholder="Search by title, author or ISBN here..... " onChange={this.inputhandler} className="form-control" id="keyword"/></div>
-                <div className="searchicon" ><Link to="/search" className="btn"><span className="glyphicon glyphicon-search"></span></Link>
+                <div className="searchicon" ><button onClick={this.searchcondition} className="btn"><span className="glyphicon glyphicon-search"></span></button>
             </div></div>
             <div className="login">
                 
@@ -203,6 +211,7 @@ class Header extends Component {
         )
     }
     componentDidMount(){
+        
         fetch(url,{
             method:'GET',
             headers:{

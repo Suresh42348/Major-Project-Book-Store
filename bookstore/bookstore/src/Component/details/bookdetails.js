@@ -41,6 +41,7 @@ class Bookdetails extends React.Component {
     // ComponentDidMount is used to 
     // execute the code  
     componentDidMount() { 
+        sessionStorage.setItem('page',0)
         fetch( 
             url) 
             .then((res) => res.json()) 

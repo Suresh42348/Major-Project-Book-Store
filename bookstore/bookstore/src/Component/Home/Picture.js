@@ -1,5 +1,9 @@
 import React,{Component} from 'react';
 import './header.css';
+import ncert from './images/ncert.jpg';
+import pic1 from './images/pic1.jpg';
+import pic2 from './images/pic2.jpg';
+import pic3 from './images/pic3.jpg';
 
 
 class Picture extends Component{
@@ -22,16 +26,16 @@ class Picture extends Component{
                         </ol>
                         <div className="carousel-inner">
                             <div className="item active" >
-                                <img src="https://i.ibb.co/wY2b2hM/ncert.png" alt="a"/>
+                                <img src={ncert} alt="a"/>
                             </div>
                             <div className="item">
-                                <img src="https://i.ibb.co/Jr2VgMH/pic1.png" alt="ncert"/>
+                                <img src= {pic1} alt="ncert"/>
                             </div>
                             <div className="item">
-                                <img src="https://i.ibb.co/F628yNh/pic2.png" alt="Sales"/>
+                                <img src={pic2} alt="Sales"/>
                             </div>
                             <div className="item">
-                                <img src="https://i.ibb.co/XkKsqj0/pic3.png" alt="Sales"/>
+                                <img src={pic3} alt="Sales"/>
                             </div>
                         </div>
           

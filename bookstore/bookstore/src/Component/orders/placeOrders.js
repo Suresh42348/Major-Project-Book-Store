@@ -132,6 +132,7 @@ class PlaceOrder extends Component {
 
     //call api 
     componentDidMount(){
+        sessionStorage.setItem('page',0)
         let orderItem = sessionStorage.getItem('bookid');
         fetch(`https://frozen-meadow-35944.herokuapp.com/books?bookid=${orderItem}`)
         .then(res=>res.json())
